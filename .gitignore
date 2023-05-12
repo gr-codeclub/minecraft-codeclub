@@ -4,6 +4,7 @@
 ### ForgeGradle ###
 # Minecraft client/server files
 run/
+**/.mcreator/workspaceBackups
 
 ### Java ###
 # Compiled class file
