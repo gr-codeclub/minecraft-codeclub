@@ -1,0 +1,48 @@
+{
+  "mod_elements": [
+    {
+      "name": "Lalsian",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lalsian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lalsianhonsukte/models/item/lalsian.json",
+          "src/main/resources/assets/lalsianhonsukte/models/block/lalsian.json",
+          "src/main/java/net/mcreator/lalsianhonsukte/block/LalsianBlock.java",
+          "src/main/resources/assets/lalsianhonsukte/blockstates/lalsian.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.lalsianhonsukte.lalsian": "Lalsian"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lalsianhonsukte",
+    "modName": "lalsianhonsukte",
+    "version": "1.0.0",
+    "author": "grtraining04, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.lalsianhonsukte",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

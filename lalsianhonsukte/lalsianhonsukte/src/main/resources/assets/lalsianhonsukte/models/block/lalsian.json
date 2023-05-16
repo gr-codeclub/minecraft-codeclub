@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lalsianhonsukte:blocks/oh_ye",
+    "particle": "lalsianhonsukte:blocks/oh_ye"
+  },
+  "render_type": "solid"
+}
