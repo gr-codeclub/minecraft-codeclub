@@ -1,0 +1,48 @@
+{
+  "mod_elements": [
+    {
+      "name": "Omar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/omar/block/OmarBlock.java",
+          "src/main/resources/assets/omar/blockstates/omar.json",
+          "src/main/resources/assets/omar/models/block/omar.json",
+          "src/main/resources/assets/omar/models/item/omar.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.omar.omar": "Omar"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "omar",
+    "modName": "omar",
+    "version": "1.0.0",
+    "author": "grtraining11, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.omar",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
