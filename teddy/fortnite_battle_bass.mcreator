@@ -1,0 +1,48 @@
+{
+  "mod_elements": [
+    {
+      "name": "Teddy",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teddy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fortnite_battle_bass/blockstates/teddy.json",
+          "src/main/resources/assets/fortnite_battle_bass/models/block/teddy.json",
+          "src/main/resources/assets/fortnite_battle_bass/models/item/teddy.json",
+          "src/main/java/net/mcreator/fortnitebattlebass/block/TeddyBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.fortnite_battle_bass.teddy": "Teddy"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "fortnite_battle_bass",
+    "modName": "fortnite battle bass",
+    "version": "1.0.0",
+    "author": "grtraining09, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.fortnitebattlebass",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
