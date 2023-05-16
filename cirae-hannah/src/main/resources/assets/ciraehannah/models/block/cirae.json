@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ciraehannah:blocks/cirae",
+    "up": "ciraehannah:blocks/cirae",
+    "north": "ciraehannah:blocks/cirae",
+    "east": "ciraehannah:blocks/cirae",
+    "south": "ciraehannah:blocks/cirae",
+    "west": "ciraehannah:blocks/cirae",
+    "particle": "ciraehannah:blocks/cirae"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,48 @@
+{
+  "mod_elements": [
+    {
+      "name": "Khaledblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "khaledblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chubertos/blockstates/khaledblock.json",
+          "src/main/resources/assets/chubertos/models/item/khaledblock.json",
+          "src/main/java/net/mcreator/chubertos/block/KhaledblockBlock.java",
+          "src/main/resources/assets/chubertos/models/block/khaledblock.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.chubertos.khaledblock": "Khaledblock"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chubertos",
+    "modName": "chubertos",
+    "version": "1.0.0",
+    "author": "grtraining05, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.chubertos",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
