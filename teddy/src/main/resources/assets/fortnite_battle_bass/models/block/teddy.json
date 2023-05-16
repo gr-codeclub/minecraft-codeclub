@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fortnite_battle_bass:blocks/preston",
+    "particle": "fortnite_battle_bass:blocks/preston"
+  },
+  "render_type": "solid"
+}
