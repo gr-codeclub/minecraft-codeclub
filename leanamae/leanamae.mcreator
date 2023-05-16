@@ -1,0 +1,48 @@
+{
+  "mod_elements": [
+    {
+      "name": "Leanamae",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leanamae",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/leanamae/block/LeanamaeBlock.java",
+          "src/main/resources/assets/leanamae/models/item/leanamae.json",
+          "src/main/resources/assets/leanamae/models/block/leanamae.json",
+          "src/main/resources/assets/leanamae/blockstates/leanamae.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.leanamae.leanamae": "Leanamae"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "leanamae",
+    "modName": "leanamae",
+    "version": "1.0.0",
+    "author": "grtraining17, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.leanamae",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
