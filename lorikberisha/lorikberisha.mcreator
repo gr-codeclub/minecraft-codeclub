@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Fortnite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fortnite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lorikberisha/models/block/fortnite.json",
+          "src/main/resources/assets/lorikberisha/models/item/fortnite.json",
+          "src/main/resources/assets/lorikberisha/blockstates/fortnite.json",
+          "src/main/java/net/mcreator/lorikberisha/block/FortniteBlock.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.lorikberisha.fortnite": "Fortnite"
+    }
   },
   "foldersRoot": {
     "name": "~",
