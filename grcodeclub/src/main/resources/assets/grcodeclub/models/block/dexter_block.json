@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "grcodeclub:blocks/dexterblock",
+    "particle": "grcodeclub:blocks/dexterblock"
+  },
+  "render_type": "solid"
+}
