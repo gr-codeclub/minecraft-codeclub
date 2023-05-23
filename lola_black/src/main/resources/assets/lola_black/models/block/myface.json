@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lola_black:blocks/mef",
+    "up": "lola_black:blocks/mef",
+    "north": "lola_black:blocks/me",
+    "east": "lola_black:blocks/mef",
+    "south": "lola_black:blocks/mef",
+    "west": "lola_black:blocks/mef",
+    "particle": "lola_black:blocks/mef"
+  },
+  "render_type": "solid"
+}
