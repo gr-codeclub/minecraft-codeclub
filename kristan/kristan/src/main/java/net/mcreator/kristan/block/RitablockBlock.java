@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class RitablockBlock extends Block {
 	public RitablockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.LAVA).sound(SoundType.GRAVEL).strength(1f, 10f).noCollission());
 	}
 
 	@Override
