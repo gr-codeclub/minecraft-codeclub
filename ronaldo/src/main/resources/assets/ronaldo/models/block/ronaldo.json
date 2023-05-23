@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ronaldo:blocks/ronaldo",
+    "up": "ronaldo:blocks/ronaldo",
+    "north": "ronaldo:blocks/ronaldo",
+    "east": "ronaldo:blocks/ronaldo",
+    "south": "ronaldo:blocks/ronaldo",
+    "west": "ronaldo:blocks/ronaldo",
+    "particle": "ronaldo:blocks/ronaldo"
+  },
+  "render_type": "solid"
+}

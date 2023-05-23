@@ -1,0 +1,59 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ronaldo",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ronaldo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ronaldo/block/RonaldoBlock.java",
+          "src/main/resources/assets/ronaldo/models/item/ronaldo.json",
+          "src/main/resources/assets/ronaldo/blockstates/ronaldo.json",
+          "src/main/resources/assets/ronaldo/models/block/ronaldo.json"
+        ]
+      }
+    },
+    {
+      "name": "Fartu764",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fartu_764",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.ronaldo.ronaldo": "Ronaldo",
+      "itemGroup.tabfartu_764": "Fartu 7 6 4"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ronaldo",
+    "modName": "RONALDO",
+    "version": "1.0.0",
+    "author": "grtraining16, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.ronaldo",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
