@@ -35,9 +35,9 @@
     ],
     "name": "Cirae",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 0.8,
     "resistance": 10.0,
-    "hasGravity": false,
+    "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
