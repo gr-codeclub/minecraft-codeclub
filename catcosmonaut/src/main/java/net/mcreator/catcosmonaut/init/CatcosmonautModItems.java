@@ -17,6 +17,10 @@ import net.mcreator.catcosmonaut.CatcosmonautMod;
 
 public class CatcosmonautModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, CatcosmonautMod.MODID);
+	public static final RegistryObject<Item> CATTSHIRT_HELMET = REGISTRY.register("cattshirt_helmet", () -> new CattshirtItem.Helmet());
+	public static final RegistryObject<Item> CATTSHIRT_CHESTPLATE = REGISTRY.register("cattshirt_chestplate", () -> new CattshirtItem.Chestplate());
+	public static final RegistryObject<Item> CATTSHIRT_LEGGINGS = REGISTRY.register("cattshirt_leggings", () -> new CattshirtItem.Leggings());
+	public static final RegistryObject<Item> CATTSHIRT_BOOTS = REGISTRY.register("cattshirt_boots", () -> new CattshirtItem.Boots());
 	public static final RegistryObject<Item> SAFAANAUMRAHMAN = block(CatcosmonautModBlocks.SAFAANAUMRAHMAN, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

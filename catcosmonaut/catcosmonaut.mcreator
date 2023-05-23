@@ -3,6 +3,7 @@
     {
       "name": "Safaanaumrahman",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "safaanaumrahman",
@@ -14,13 +15,34 @@
           "src/main/resources/assets/catcosmonaut/models/block/safaanaumrahman.json"
         ]
       }
+    },
+    {
+      "name": "Cattshirt",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cattshirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/catcosmonaut/models/item/cattshirt_chestplate.json",
+          "src/main/java/net/mcreator/catcosmonaut/item/CattshirtItem.java",
+          "src/main/resources/assets/catcosmonaut/models/item/cattshirt_leggings.json",
+          "src/main/resources/assets/catcosmonaut/models/item/cattshirt_helmet.json",
+          "src/main/resources/assets/catcosmonaut/models/item/cattshirt_boots.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.catcosmonaut.safaanaumrahman": "Safaanaumrahman"
+      "block.catcosmonaut.safaanaumrahman": "Safaanaumrahman",
+      "item.catcosmonaut.cattshirt_chestplate": "Cattshirt",
+      "item.catcosmonaut.cattshirt_leggings": "Jeans",
+      "item.catcosmonaut.cattshirt_helmet": "Cathead",
+      "item.catcosmonaut.cattshirt_boots": "Trainers"
     }
   },
   "foldersRoot": {
