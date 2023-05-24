@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.catcosmonaut.item.CattshirtItem;
 import net.mcreator.catcosmonaut.CatcosmonautMod;
 
 public class CatcosmonautModItems {
