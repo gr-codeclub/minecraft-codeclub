@@ -15,13 +15,43 @@
           "src/main/resources/assets/grcodeclub/models/block/dexter_block.json"
         ]
       }
+    },
+    {
+      "name": "Foodthing",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foodthing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/grcodeclub/item/FoodthingItem.java",
+          "src/main/resources/assets/grcodeclub/models/item/foodthing.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheese",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/grcodeclub/item/CheeseItem.java",
+          "src/main/resources/assets/grcodeclub/models/item/cheese.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.grcodeclub.dexter_block": "Dexter Block"
+      "item.grcodeclub.foodthing": "Foodthing",
+      "block.grcodeclub.dexter_block": "Ollie Block",
+      "item.grcodeclub.cheese": "Cheese"
     }
   },
   "foldersRoot": {
