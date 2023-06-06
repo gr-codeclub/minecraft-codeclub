@@ -13,10 +13,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.lorikberisha.item.NoodelsItem;
 import net.mcreator.lorikberisha.LorikberishaMod;
 
 public class LorikberishaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, LorikberishaMod.MODID);
+	public static final RegistryObject<Item> NOODELS = REGISTRY.register("noodels", () -> new NoodelsItem());
 	public static final RegistryObject<Item> FORTNITE = block(LorikberishaModBlocks.FORTNITE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

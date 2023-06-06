@@ -3,15 +3,30 @@
     {
       "name": "Fortnite",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fortnite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lorikberisha/models/block/fortnite.json",
+          "src/main/java/net/mcreator/lorikberisha/block/FortniteBlock.java",
           "src/main/resources/assets/lorikberisha/models/item/fortnite.json",
           "src/main/resources/assets/lorikberisha/blockstates/fortnite.json",
-          "src/main/java/net/mcreator/lorikberisha/block/FortniteBlock.java"
+          "src/main/resources/assets/lorikberisha/models/block/fortnite.json"
+        ]
+      }
+    },
+    {
+      "name": "Noodels",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noodels",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lorikberisha/models/item/noodels.json",
+          "src/main/java/net/mcreator/lorikberisha/item/NoodelsItem.java"
         ]
       }
     }
@@ -20,7 +35,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.lorikberisha.fortnite": "Fortnite"
+      "block.lorikberisha.fortnite": "Fortnite",
+      "item.lorikberisha.noodels": "Noodels"
     }
   },
   "foldersRoot": {
