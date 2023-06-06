@@ -3,6 +3,7 @@
     {
       "name": "Fady",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fady",
@@ -14,13 +15,34 @@
           "src/main/java/net/mcreator/wowo/block/FadyBlock.java"
         ]
       }
+    },
+    {
+      "name": "THELIONGODSARMOUR",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theliongodsarmour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wowo/models/item/theliongodsarmour_helmet.json",
+          "src/main/resources/assets/wowo/models/item/theliongodsarmour_chestplate.json",
+          "src/main/java/net/mcreator/wowo/item/THELIONGODSARMOURItem.java",
+          "src/main/resources/assets/wowo/models/item/theliongodsarmour_leggings.json",
+          "src/main/resources/assets/wowo/models/item/theliongodsarmour_boots.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.wowo.fady": "Fady"
+      "block.wowo.fady": "Fady",
+      "item.wowo.theliongodsarmour_leggings": "THELIONGODSARMOUR Leggings",
+      "item.wowo.theliongodsarmour_chestplate": "THELIONGODSARMOUR Body",
+      "item.wowo.theliongodsarmour_helmet": "THELIONGODSARMOUR Helmet",
+      "item.wowo.theliongodsarmour_boots": "THELIONGODSARMOUR Boots"
     }
   },
   "foldersRoot": {
