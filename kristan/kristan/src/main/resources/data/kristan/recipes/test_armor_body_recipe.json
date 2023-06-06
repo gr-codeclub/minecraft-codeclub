@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_helmet"
+    },
+    "2": {
+      "item": "minecraft:iron_helmet"
+    },
+    "3": {
+      "item": "minecraft:iron_helmet"
+    },
+    "4": {
+      "item": "minecraft:iron_helmet"
+    },
+    "5": {
+      "item": "minecraft:iron_helmet"
+    },
+    "6": {
+      "item": "minecraft:iron_helmet"
+    },
+    "7": {
+      "item": "minecraft:iron_helmet"
+    },
+    "8": {
+      "item": "minecraft:iron_helmet"
+    }
+  },
+  "result": {
+    "item": "kristan:test_armor_chestplate",
+    "count": 1
+  }
+}

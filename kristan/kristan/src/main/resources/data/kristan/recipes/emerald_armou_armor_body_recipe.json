@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kristan:emerald_armour_helmet"
+    },
+    "2": {
+      "item": "kristan:emerald_armour_helmet"
+    },
+    "3": {
+      "item": "kristan:emerald_armour_helmet"
+    },
+    "4": {
+      "item": "kristan:emerald_armour_helmet"
+    },
+    "5": {
+      "item": "kristan:emerald_armour_helmet"
+    },
+    "6": {
+      "item": "kristan:emerald_armour_helmet"
+    },
+    "7": {
+      "item": "kristan:emerald_armour_helmet"
+    },
+    "8": {
+      "item": "kristan:emerald_armour_helmet"
+    }
+  },
+  "result": {
+    "item": "kristan:emerald_armou_armor_chestplate",
+    "count": 1
+  }
+}

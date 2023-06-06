@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_helmet"
+    },
+    "1": {
+      "item": "minecraft:iron_helmet"
+    },
+    "2": {
+      "item": "minecraft:iron_helmet"
+    },
+    "3": {
+      "item": "minecraft:iron_helmet"
+    },
+    "5": {
+      "item": "minecraft:iron_helmet"
+    }
+  },
+  "result": {
+    "item": "kristan:test_armor_helmet",
+    "count": 1
+  }
+}

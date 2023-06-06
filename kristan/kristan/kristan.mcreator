@@ -3,6 +3,7 @@
     {
       "name": "Ritablock",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ritablock",
@@ -14,13 +15,208 @@
           "src/main/resources/assets/kristan/models/block/ritablock.json"
         ]
       }
+    },
+    {
+      "name": "EmeraldArmour",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kristan/models/item/emerald_armour_chestplate.json",
+          "src/main/resources/assets/kristan/models/item/emerald_armour_helmet.json",
+          "src/main/resources/assets/kristan/models/item/emerald_armour_leggings.json",
+          "src/main/java/net/mcreator/kristan/item/EmeraldArmourItem.java",
+          "src/main/resources/assets/kristan/models/item/emerald_armour_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldArmourRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armour_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kristan/recipes/emerald_armour_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TestArmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kristan/models/item/test_armor_helmet.json",
+          "src/main/resources/assets/kristan/models/item/test_armor_leggings.json",
+          "src/main/resources/assets/kristan/models/item/test_armor_boots.json",
+          "src/main/resources/assets/kristan/models/item/test_armor_chestplate.json",
+          "src/main/java/net/mcreator/kristan/item/TestArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TestArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kristan/recipes/test_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TestArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kristan/recipes/test_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TestArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kristan/recipes/test_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TestArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kristan/recipes/test_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldArmouArmor",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armou_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kristan/models/item/emerald_armou_armor_boots.json",
+          "src/main/java/net/mcreator/kristan/item/EmeraldArmouArmorItem.java",
+          "src/main/resources/assets/kristan/models/item/emerald_armou_armor_leggings.json",
+          "src/main/resources/assets/kristan/models/item/emerald_armou_armor_chestplate.json",
+          "src/main/resources/assets/kristan/models/item/emerald_armou_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldArmouArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armou_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kristan/recipes/emerald_armou_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldArmouArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armou_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kristan/recipes/emerald_armou_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldArmouArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armou_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kristan/recipes/emerald_armou_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldArmouArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_armou_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kristan/recipes/emerald_armou_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Wand",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kristan/models/item/wand.json",
+          "src/main/java/net/mcreator/kristan/item/WandItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.kristan.ritablock": "Ritablock"
+      "item.kristan.emerald_armou_armor_chestplate": "EmeraldArmou Chestplate",
+      "item.kristan.emerald_armou_armor_boots": "EmeraldArmou Boots",
+      "item.kristan.emerald_armour_helmet": "Emerald Armour Helmet",
+      "item.kristan.test_armor_boots": "Test Boots",
+      "item.kristan.test_armor_helmet": "Test Helmet",
+      "item.kristan.emerald_armou_armor_helmet": "EmeraldArmou Helmet",
+      "item.kristan.wand": "Wand",
+      "item.kristan.test_armor_leggings": "Test Leggings",
+      "block.kristan.ritablock": "Ritablock",
+      "item.kristan.emerald_armour_chestplate": "Emerald Armour Body",
+      "item.kristan.test_armor_chestplate": "Test Chestplate",
+      "item.kristan.emerald_armou_armor_leggings": "EmeraldArmou Leggings",
+      "item.kristan.emerald_armour_boots": "Emerald Armour Boots",
+      "item.kristan.emerald_armour_leggings": "Emerald Armour Leggings"
     }
   },
   "foldersRoot": {
