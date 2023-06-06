@@ -3,6 +3,7 @@
     {
       "name": "Jamila",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jamila",
@@ -14,13 +15,28 @@
           "src/main/resources/assets/jamilafarah/blockstates/jamila.json"
         ]
       }
+    },
+    {
+      "name": "Pizza",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamilafarah/item/PizzaItem.java",
+          "src/main/resources/assets/jamilafarah/models/item/pizza.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.jamilafarah.jamila": "Jamila"
+      "block.jamilafarah.jamila": "Jamila",
+      "item.jamilafarah.pizza": "Pizza"
     }
   },
   "foldersRoot": {
