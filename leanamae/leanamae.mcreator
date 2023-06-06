@@ -3,6 +3,7 @@
     {
       "name": "Leanamae",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leanamae",
@@ -14,13 +15,28 @@
           "src/main/resources/assets/leanamae/blockstates/leanamae.json"
         ]
       }
+    },
+    {
+      "name": "Cake",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/leanamae/item/CakeItem.java",
+          "src/main/resources/assets/leanamae/models/item/cake.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.leanamae.leanamae": "Leanamae"
+      "block.leanamae.leanamae": "Leanamae",
+      "item.leanamae.cake": "Cake"
     }
   },
   "foldersRoot": {
