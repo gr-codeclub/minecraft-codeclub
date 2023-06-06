@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class CiraeBlock extends FallingBlock {
 	public CiraeBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(0.8f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(0.8f, 10f).noCollission());
 	}
 
 	@Override

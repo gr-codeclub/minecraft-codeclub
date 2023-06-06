@@ -3,6 +3,7 @@
     {
       "name": "Cirae",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cirae",
@@ -14,12 +15,27 @@
           "src/main/resources/assets/ciraehannah/blockstates/cirae.json"
         ]
       }
+    },
+    {
+      "name": "Noodles",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noodles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ciraehannah/item/NoodlesItem.java",
+          "src/main/resources/assets/ciraehannah/models/item/noodles.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.ciraehannah.noodles": "Noodles",
       "block.ciraehannah.cirae": "Cirae"
     }
   },

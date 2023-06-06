@@ -13,10 +13,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.ciraehannah.item.NoodlesItem;
 import net.mcreator.ciraehannah.CiraehannahMod;
 
 public class CiraehannahModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, CiraehannahMod.MODID);
+	public static final RegistryObject<Item> NOODLES = REGISTRY.register("noodles", () -> new NoodlesItem());
 	public static final RegistryObject<Item> CIRAE = block(CiraehannahModBlocks.CIRAE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
