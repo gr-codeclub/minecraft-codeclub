@@ -3,6 +3,7 @@
     {
       "name": "Josephine",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "josephine",
@@ -14,13 +15,28 @@
           "src/main/resources/assets/josephine/models/item/josephine.json"
         ]
       }
+    },
+    {
+      "name": "Cake",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/josephine/item/CakeItem.java",
+          "src/main/resources/assets/josephine/models/item/cake.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.josephine.josephine": "Josephine"
+      "block.josephine.josephine": "Josephine",
+      "item.josephine.cake": "Cake"
     }
   },
   "foldersRoot": {
