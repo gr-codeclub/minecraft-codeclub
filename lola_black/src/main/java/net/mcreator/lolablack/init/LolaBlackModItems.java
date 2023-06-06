@@ -13,10 +13,15 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.lolablack.item.GreyamourItem;
 import net.mcreator.lolablack.LolaBlackMod;
 
 public class LolaBlackModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, LolaBlackMod.MODID);
+	public static final RegistryObject<Item> GREYAMOUR_HELMET = REGISTRY.register("greyamour_helmet", () -> new GreyamourItem.Helmet());
+	public static final RegistryObject<Item> GREYAMOUR_CHESTPLATE = REGISTRY.register("greyamour_chestplate", () -> new GreyamourItem.Chestplate());
+	public static final RegistryObject<Item> GREYAMOUR_LEGGINGS = REGISTRY.register("greyamour_leggings", () -> new GreyamourItem.Leggings());
+	public static final RegistryObject<Item> GREYAMOUR_BOOTS = REGISTRY.register("greyamour_boots", () -> new GreyamourItem.Boots());
 	public static final RegistryObject<Item> MYFACE = block(LolaBlackModBlocks.MYFACE, LolaBlackModTabs.TAB_HELLO);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

@@ -3,6 +3,7 @@
     {
       "name": "Myface",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "myface",
@@ -24,13 +25,34 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Greyamour",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greyamour",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolablack/item/GreyamourItem.java",
+          "src/main/resources/assets/lola_black/models/item/greyamour_chestplate.json",
+          "src/main/resources/assets/lola_black/models/item/greyamour_boots.json",
+          "src/main/resources/assets/lola_black/models/item/greyamour_helmet.json",
+          "src/main/resources/assets/lola_black/models/item/greyamour_leggings.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.lola_black.greyamour_boots": "Greyamour Boots",
+      "item.lola_black.greyamour_helmet": "Greyamour Helmet",
+      "item.lola_black.greyamour_chestplate": "Greyamour Body",
       "block.lola_black.myface": "Myface",
+      "item.lola_black.greyamour_leggings": "Greyamour Leggings",
       "itemGroup.tabhello": "Hello"
     }
   },
