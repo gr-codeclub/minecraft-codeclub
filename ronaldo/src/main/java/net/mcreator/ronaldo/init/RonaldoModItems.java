@@ -13,11 +13,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.ronaldo.item.CakeItem;
 import net.mcreator.ronaldo.RonaldoMod;
 
 public class RonaldoModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, RonaldoMod.MODID);
-	public static final RegistryObject<Item> RONALDO = block(RonaldoModBlocks.RONALDO, RonaldoModTabs.TAB_FARTU_764);
+	public static final RegistryObject<Item> CAKE = REGISTRY.register("cake", () -> new CakeItem());
+	public static final RegistryObject<Item> RONALDO = block(RonaldoModBlocks.RONALDO, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

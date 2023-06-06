@@ -29,7 +29,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.ronaldo.init.RonaldoModTabs;
 import net.mcreator.ronaldo.init.RonaldoModItems;
 import net.mcreator.ronaldo.init.RonaldoModBlocks;
 
@@ -49,7 +48,7 @@ public class RonaldoMod {
 
 	public RonaldoMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-		RonaldoModTabs.load();
+
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		RonaldoModBlocks.REGISTRY.register(bus);

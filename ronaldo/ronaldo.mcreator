@@ -3,6 +3,7 @@
     {
       "name": "Ronaldo",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ronaldo",
@@ -16,13 +17,17 @@
       }
     },
     {
-      "name": "Fartu764",
-      "type": "tab",
+      "name": "Cake",
+      "type": "item",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fartu_764",
+      "registry_name": "cake",
       "metadata": {
-        "files": []
+        "files": [
+          "src/main/resources/assets/ronaldo/models/item/cake.json",
+          "src/main/java/net/mcreator/ronaldo/item/CakeItem.java"
+        ]
       }
     }
   ],
@@ -31,7 +36,7 @@
   "language_map": {
     "en_us": {
       "block.ronaldo.ronaldo": "Ronaldo",
-      "itemGroup.tabfartu_764": "Fartu 7 6 4"
+      "item.ronaldo.cake": "Cake"
     }
   },
   "foldersRoot": {
