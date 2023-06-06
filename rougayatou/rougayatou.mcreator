@@ -3,6 +3,7 @@
     {
       "name": "Rougayatoublock",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rougayatoublock",
@@ -14,12 +15,48 @@
           "src/main/resources/assets/rougayatou/models/block/rougayatoublock.json"
         ]
       }
+    },
+    {
+      "name": "PINK",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rougayatou/models/item/pink_chestplate.json",
+          "src/main/resources/assets/rougayatou/models/item/pink_helmet.json",
+          "src/main/resources/assets/rougayatou/models/item/pink_leggings.json",
+          "src/main/java/net/mcreator/rougayatou/item/PINKItem.java",
+          "src/main/resources/assets/rougayatou/models/item/pink_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Wand",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rougayatou/models/item/wand.json",
+          "src/main/java/net/mcreator/rougayatou/item/WandItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.rougayatou.wand": "Wand",
+      "item.rougayatou.pink_helmet": "PINK Helmet",
+      "item.rougayatou.pink_leggings": "PINK Leggings",
+      "item.rougayatou.pink_boots": "PINK Boots",
+      "item.rougayatou.pink_chestplate": "PINK Body",
       "block.rougayatou.rougayatoublock": "Rougayatoublock"
     }
   },
