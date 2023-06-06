@@ -3,6 +3,7 @@
     {
       "name": "Lisan",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lisan",
@@ -14,12 +15,27 @@
           "src/main/resources/assets/lisan/models/item/lisan.json"
         ]
       }
+    },
+    {
+      "name": "Reman",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lisan/item/RemanItem.java",
+          "src/main/resources/assets/lisan/models/item/reman.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.lisan.reman": "Reman",
       "block.lisan.lisan": "Lisan"
     }
   },

@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class LisanBlock extends FallingBlock {
 	public LisanBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noCollission());
 	}
 
 	@Override

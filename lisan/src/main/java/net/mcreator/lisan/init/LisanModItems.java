@@ -13,10 +13,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.lisan.item.RemanItem;
 import net.mcreator.lisan.LisanMod;
 
 public class LisanModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, LisanMod.MODID);
+	public static final RegistryObject<Item> REMAN = REGISTRY.register("reman", () -> new RemanItem());
 	public static final RegistryObject<Item> LISAN = block(LisanModBlocks.LISAN, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
