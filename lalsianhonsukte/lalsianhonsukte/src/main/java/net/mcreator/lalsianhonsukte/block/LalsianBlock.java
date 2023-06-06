@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class LalsianBlock extends FallingBlock {
 	public LalsianBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noCollission());
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.GRAVEL).strength(1f, 10f).noCollission());
 	}
 
 	@Override
