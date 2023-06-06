@@ -3,6 +3,7 @@
     {
       "name": "Khaledblock",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "khaledblock",
@@ -14,13 +15,49 @@
           "src/main/resources/assets/chubertos/models/block/khaledblock.json"
         ]
       }
+    },
+    {
+      "name": "Dexter",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dexter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chubertos/models/item/dexter_chestplate.json",
+          "src/main/java/net/mcreator/chubertos/item/DexterItem.java",
+          "src/main/resources/assets/chubertos/models/item/dexter_leggings.json",
+          "src/main/resources/assets/chubertos/models/item/dexter_boots.json",
+          "src/main/resources/assets/chubertos/models/item/dexter_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Dexter3",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dexter_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chubertos/item/Dexter3Item.java",
+          "src/main/resources/assets/chubertos/models/item/dexter_3.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.chubertos.khaledblock": "Khaledblock"
+      "block.chubertos.khaledblock": "Khaledblock",
+      "item.chubertos.dexter_leggings": "Dexter Leggings",
+      "item.chubertos.dexter_chestplate": "Dexter Body",
+      "item.chubertos.dexter_3": "Dexter 3",
+      "item.chubertos.dexter_helmet": "Dexter Helmet",
+      "item.chubertos.dexter_boots": "Dexter Boots"
     }
   },
   "foldersRoot": {
