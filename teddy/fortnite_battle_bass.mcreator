@@ -3,6 +3,7 @@
     {
       "name": "Teddy",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teddy",
@@ -14,13 +15,34 @@
           "src/main/java/net/mcreator/fortnitebattlebass/block/TeddyBlock.java"
         ]
       }
+    },
+    {
+      "name": "Lol",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fortnite_battle_bass/models/item/lol_helmet.json",
+          "src/main/resources/assets/fortnite_battle_bass/models/item/lol_leggings.json",
+          "src/main/resources/assets/fortnite_battle_bass/models/item/lol_chestplate.json",
+          "src/main/java/net/mcreator/fortnitebattlebass/item/LolItem.java",
+          "src/main/resources/assets/fortnite_battle_bass/models/item/lol_boots.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.fortnite_battle_bass.teddy": "Teddy"
+      "block.fortnite_battle_bass.teddy": "Teddy",
+      "item.fortnite_battle_bass.lol_helmet": "dexters terrible hat",
+      "item.fortnite_battle_bass.lol_chestplate": "dexters terrible hat",
+      "item.fortnite_battle_bass.lol_boots": "dexters terrible hat",
+      "item.fortnite_battle_bass.lol_leggings": "dexters terrible hat"
     }
   },
   "foldersRoot": {

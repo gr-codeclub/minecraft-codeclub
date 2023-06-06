@@ -13,10 +13,15 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.fortnitebattlebass.item.LolItem;
 import net.mcreator.fortnitebattlebass.FortniteBattleBassMod;
 
 public class FortniteBattleBassModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FortniteBattleBassMod.MODID);
+	public static final RegistryObject<Item> LOL_HELMET = REGISTRY.register("lol_helmet", () -> new LolItem.Helmet());
+	public static final RegistryObject<Item> LOL_CHESTPLATE = REGISTRY.register("lol_chestplate", () -> new LolItem.Chestplate());
+	public static final RegistryObject<Item> LOL_LEGGINGS = REGISTRY.register("lol_leggings", () -> new LolItem.Leggings());
+	public static final RegistryObject<Item> LOL_BOOTS = REGISTRY.register("lol_boots", () -> new LolItem.Boots());
 	public static final RegistryObject<Item> TEDDY = block(FortniteBattleBassModBlocks.TEDDY, CreativeModeTab.TAB_MISC);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

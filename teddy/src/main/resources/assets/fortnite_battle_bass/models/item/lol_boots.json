@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fortnite_battle_bass:items/stupid_boots"
+  }
+}
