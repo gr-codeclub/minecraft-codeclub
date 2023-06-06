@@ -66,7 +66,7 @@ public abstract class CattshirtItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catcosmonaut:textures/models/armor/catshirt_layer_1.png";
+			return "catcosmonaut:textures/models/armor/aquaamour_layer_1.png";
 		}
 	}
 
@@ -77,7 +77,7 @@ public abstract class CattshirtItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catcosmonaut:textures/models/armor/catshirt_layer_1.png";
+			return "catcosmonaut:textures/models/armor/aquaamour_layer_1.png";
 		}
 	}
 
@@ -88,7 +88,7 @@ public abstract class CattshirtItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catcosmonaut:textures/models/armor/catshirt_layer_2.png";
+			return "catcosmonaut:textures/models/armor/aquaamour_layer_2.png";
 		}
 	}
 
@@ -99,7 +99,7 @@ public abstract class CattshirtItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catcosmonaut:textures/models/armor/catshirt_layer_1.png";
+			return "catcosmonaut:textures/models/armor/aquaamour_layer_1.png";
 		}
 	}
 }
