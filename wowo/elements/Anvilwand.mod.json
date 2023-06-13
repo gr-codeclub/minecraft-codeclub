@@ -30,7 +30,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "AnvilwandRightclicked"
+      "name": "AnvilWandrightclick"
     },
     "isFood": false,
     "nutritionalValue": 4,

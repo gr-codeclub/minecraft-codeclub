@@ -10,7 +10,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
-import net.mcreator.wowo.procedures.AnvilwandRightclickedProcedure;
+import net.mcreator.wowo.procedures.AnvilWandrightclickProcedure;
 
 public class AnvilwandItem extends Item {
 	public AnvilwandItem() {
@@ -25,7 +25,7 @@ public class AnvilwandItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		AnvilwandRightclickedProcedure.execute(world, x, y, z);
+		AnvilWandrightclickProcedure.execute(world, x, y, z);
 		return ar;
 	}
 }
