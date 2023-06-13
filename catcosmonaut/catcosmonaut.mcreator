@@ -32,6 +32,50 @@
           "src/main/resources/assets/catcosmonaut/models/item/cattshirt_boots.json"
         ]
       }
+    },
+    {
+      "name": "CatWandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/catcosmonaut/procedures/CatWandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CatWand",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/catcosmonaut/item/CatWandItem.java",
+          "src/main/resources/assets/catcosmonaut/models/item/cat_wand.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -41,6 +85,7 @@
       "block.catcosmonaut.safaanaumrahman": "Safaanaumrahman",
       "item.catcosmonaut.cattshirt_chestplate": "Cattshirt",
       "item.catcosmonaut.cattshirt_leggings": "Jeans",
+      "item.catcosmonaut.cat_wand": "Cat Wand",
       "item.catcosmonaut.cattshirt_helmet": "Cathead",
       "item.catcosmonaut.cattshirt_boots": "Trainers"
     }
