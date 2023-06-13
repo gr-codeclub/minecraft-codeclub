@@ -32,6 +32,70 @@
           "src/main/resources/assets/wowo/models/item/theliongodsarmour_boots.json"
         ]
       }
+    },
+    {
+      "name": "Anvilwand",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvilwand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wowo/models/item/anvilwand.json",
+          "src/main/java/net/mcreator/wowo/item/AnvilwandItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnvilwandRightclicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvilwand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wowo/procedures/AnvilwandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnvilWandrightclick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvil_wandrightclick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wowo/procedures/AnvilWandrightclickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -42,7 +106,8 @@
       "item.wowo.theliongodsarmour_leggings": "THELIONGODSARMOUR Leggings",
       "item.wowo.theliongodsarmour_chestplate": "THELIONGODSARMOUR Body",
       "item.wowo.theliongodsarmour_helmet": "THELIONGODSARMOUR Helmet",
-      "item.wowo.theliongodsarmour_boots": "THELIONGODSARMOUR Boots"
+      "item.wowo.theliongodsarmour_boots": "THELIONGODSARMOUR Boots",
+      "item.wowo.anvilwand": "Anvilwand"
     }
   },
   "foldersRoot": {
