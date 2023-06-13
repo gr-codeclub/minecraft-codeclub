@@ -3,6 +3,7 @@
     {
       "name": "Omar",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "omar",
@@ -14,13 +15,28 @@
           "src/main/resources/assets/omar/models/item/omar.json"
         ]
       }
+    },
+    {
+      "name": "Cake",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/omar/item/CakeItem.java",
+          "src/main/resources/assets/omar/models/item/cake.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.omar.omar": "Omar"
+      "block.omar.omar": "Omar",
+      "item.omar.cake": "Cake"
     }
   },
   "foldersRoot": {
