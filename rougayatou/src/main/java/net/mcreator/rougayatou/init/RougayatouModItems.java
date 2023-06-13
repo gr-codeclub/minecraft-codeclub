@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.rougayatou.item.WandItem;
 import net.mcreator.rougayatou.item.PINKItem;
 import net.mcreator.rougayatou.RougayatouMod;
 

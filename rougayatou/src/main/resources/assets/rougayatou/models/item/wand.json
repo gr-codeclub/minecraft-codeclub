@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rougayatou:items/mine_head"
+    "layer0": "rougayatou:items/cow"
   }
 }
