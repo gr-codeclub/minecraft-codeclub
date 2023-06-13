@@ -197,6 +197,32 @@
           "src/main/java/net/mcreator/kristan/item/WandItem.java"
         ]
       }
+    },
+    {
+      "name": "WandRightclickedWitherSpawns",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_rightclicked_wither_spawns",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kristan/procedures/WandRightclickedWitherSpawnsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -207,9 +233,9 @@
       "item.kristan.emerald_armou_armor_boots": "EmeraldArmou Boots",
       "item.kristan.emerald_armour_helmet": "Emerald Armour Helmet",
       "item.kristan.test_armor_boots": "Test Boots",
-      "item.kristan.test_armor_helmet": "Test Helmet",
-      "item.kristan.emerald_armou_armor_helmet": "EmeraldArmou Helmet",
       "item.kristan.wand": "Wand",
+      "item.kristan.emerald_armou_armor_helmet": "EmeraldArmou Helmet",
+      "item.kristan.test_armor_helmet": "Test Helmet",
       "item.kristan.test_armor_leggings": "Test Leggings",
       "block.kristan.ritablock": "Ritablock",
       "item.kristan.emerald_armour_chestplate": "Emerald Armour Body",
