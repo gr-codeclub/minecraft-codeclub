@@ -21,12 +21,26 @@
       "type": "item",
       "sortid": 1,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "pizza",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/jamilafarah/item/PizzaItem.java",
           "src/main/resources/assets/jamilafarah/models/item/pizza.json"
+        ]
+      }
+    },
+    {
+      "name": "PizzaTwo",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_two",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jamilafarah/models/item/pizza_two.json",
+          "src/main/java/net/mcreator/jamilafarah/item/PizzaTwoItem.java"
         ]
       }
     }
@@ -35,6 +49,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.jamilafarah.pizza_two": "Pizza Two",
       "block.jamilafarah.jamila": "Jamila",
       "item.jamilafarah.pizza": "Pizza"
     }
