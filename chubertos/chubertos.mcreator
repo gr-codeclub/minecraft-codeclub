@@ -46,6 +46,36 @@
           "src/main/resources/assets/chubertos/models/item/dexter_3.json"
         ]
       }
+    },
+    {
+      "name": "Dexter3Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dexter_3_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chubertos/procedures/Dexter3RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

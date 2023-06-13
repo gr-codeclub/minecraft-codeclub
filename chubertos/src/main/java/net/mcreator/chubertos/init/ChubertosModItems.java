@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.chubertos.item.DexterItem;
+import net.mcreator.chubertos.item.Dexter3Item;
 import net.mcreator.chubertos.ChubertosMod;
 
 public class ChubertosModItems {
