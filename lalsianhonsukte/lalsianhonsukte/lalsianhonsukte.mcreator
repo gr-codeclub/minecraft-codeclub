@@ -3,6 +3,7 @@
     {
       "name": "Lalsian",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lalsian",
@@ -14,13 +15,28 @@
           "src/main/resources/assets/lalsianhonsukte/blockstates/lalsian.json"
         ]
       }
+    },
+    {
+      "name": "Jawbreaker",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jawbreaker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lalsianhonsukte/item/JawbreakerItem.java",
+          "src/main/resources/assets/lalsianhonsukte/models/item/jawbreaker.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.lalsianhonsukte.lalsian": "Lalsian"
+      "block.lalsianhonsukte.lalsian": "Lalsian",
+      "item.lalsianhonsukte.jawbreaker": "Jawbreaker"
     }
   },
   "foldersRoot": {
