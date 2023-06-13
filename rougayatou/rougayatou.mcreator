@@ -108,6 +108,37 @@
           }
         ]
       }
+    },
+    {
+      "name": "WandMakeItemGlow",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_make_item_glow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rougayatou/procedures/WandMakeItemGlowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
