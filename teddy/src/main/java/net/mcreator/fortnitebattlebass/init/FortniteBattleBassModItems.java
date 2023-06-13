@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.fortnitebattlebass.item.TntWandItem;
 import net.mcreator.fortnitebattlebass.item.LolItem;
 import net.mcreator.fortnitebattlebass.FortniteBattleBassMod;
 
@@ -23,6 +24,7 @@ public class FortniteBattleBassModItems {
 	public static final RegistryObject<Item> LOL_LEGGINGS = REGISTRY.register("lol_leggings", () -> new LolItem.Leggings());
 	public static final RegistryObject<Item> LOL_BOOTS = REGISTRY.register("lol_boots", () -> new LolItem.Boots());
 	public static final RegistryObject<Item> TEDDY = block(FortniteBattleBassModBlocks.TEDDY, CreativeModeTab.TAB_MISC);
+	public static final RegistryObject<Item> TNT_WAND = REGISTRY.register("tnt_wand", () -> new TntWandItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

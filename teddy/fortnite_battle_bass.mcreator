@@ -32,6 +32,50 @@
           "src/main/resources/assets/fortnite_battle_bass/models/item/lol_boots.json"
         ]
       }
+    },
+    {
+      "name": "TntWandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fortnitebattlebass/procedures/TntWandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TntWand",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fortnitebattlebass/item/TntWandItem.java",
+          "src/main/resources/assets/fortnite_battle_bass/models/item/tnt_wand.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -40,6 +84,7 @@
     "en_us": {
       "block.fortnite_battle_bass.teddy": "Teddy",
       "item.fortnite_battle_bass.lol_helmet": "dexters terrible hat",
+      "item.fortnite_battle_bass.tnt_wand": "Tnt Wand",
       "item.fortnite_battle_bass.lol_chestplate": "dexters terrible hat",
       "item.fortnite_battle_bass.lol_boots": "dexters terrible hat",
       "item.fortnite_battle_bass.lol_leggings": "dexters terrible hat"
