@@ -42,6 +42,50 @@
           "src/main/resources/assets/lola_black/models/item/greyamour_leggings.json"
         ]
       }
+    },
+    {
+      "name": "WandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolablack/procedures/WandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wand",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lola_black/models/item/wand.json",
+          "src/main/java/net/mcreator/lolablack/item/WandItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -51,6 +95,7 @@
       "item.lola_black.greyamour_boots": "Greyamour Boots",
       "item.lola_black.greyamour_helmet": "Greyamour Helmet",
       "item.lola_black.greyamour_chestplate": "Greyamour Body",
+      "item.lola_black.wand": "Wand",
       "block.lola_black.myface": "Myface",
       "item.lola_black.greyamour_leggings": "Greyamour Leggings",
       "itemGroup.tabhello": "Hello"

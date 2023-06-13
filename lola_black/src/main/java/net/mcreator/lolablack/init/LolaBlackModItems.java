@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.lolablack.item.WandItem;
 import net.mcreator.lolablack.item.GreyamourItem;
 import net.mcreator.lolablack.LolaBlackMod;
 
@@ -23,6 +24,7 @@ public class LolaBlackModItems {
 	public static final RegistryObject<Item> GREYAMOUR_LEGGINGS = REGISTRY.register("greyamour_leggings", () -> new GreyamourItem.Leggings());
 	public static final RegistryObject<Item> GREYAMOUR_BOOTS = REGISTRY.register("greyamour_boots", () -> new GreyamourItem.Boots());
 	public static final RegistryObject<Item> MYFACE = block(LolaBlackModBlocks.MYFACE, LolaBlackModTabs.TAB_HELLO);
+	public static final RegistryObject<Item> WAND = REGISTRY.register("wand", () -> new WandItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
