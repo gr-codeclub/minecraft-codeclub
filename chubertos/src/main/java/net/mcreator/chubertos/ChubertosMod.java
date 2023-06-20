@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.chubertos.init.ChubertosModItems;
+import net.mcreator.chubertos.init.ChubertosModEntities;
 import net.mcreator.chubertos.init.ChubertosModBlocks;
 
 import java.util.function.Supplier;
@@ -53,6 +54,7 @@ public class ChubertosMod {
 
 		ChubertosModBlocks.REGISTRY.register(bus);
 		ChubertosModItems.REGISTRY.register(bus);
+		ChubertosModEntities.REGISTRY.register(bus);
 
 	}
 

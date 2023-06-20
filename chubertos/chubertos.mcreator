@@ -76,6 +76,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Blexter",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blexter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chubertos/forge/biome_modifier/blexter_biome_modifier.json",
+          "src/main/java/net/mcreator/chubertos/client/renderer/BlexterRenderer.java",
+          "src/main/resources/assets/chubertos/models/item/blexter_spawn_egg.json",
+          "src/main/java/net/mcreator/chubertos/entity/BlexterEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -83,8 +99,10 @@
   "language_map": {
     "en_us": {
       "block.chubertos.khaledblock": "Khaledblock",
+      "item.chubertos.blexter_spawn_egg": "Blexter Spawn Egg",
       "item.chubertos.dexter_leggings": "Dexter Leggings",
       "item.chubertos.dexter_chestplate": "Dexter Body",
+      "entity.chubertos.blexter": "Blexter",
       "item.chubertos.dexter_3": "Dexter 3",
       "item.chubertos.dexter_helmet": "Dexter Helmet",
       "item.chubertos.dexter_boots": "Dexter Boots"

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chubertos.main.iml" filepath="$PROJECT_DIR$/.idea/modules/chubertos.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chubertos.test.iml" filepath="$PROJECT_DIR$/.idea/modules/chubertos.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.chubertos.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.chubertos.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.chubertos.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.chubertos.test.iml" />
     </modules>
   </component>
 </project>
