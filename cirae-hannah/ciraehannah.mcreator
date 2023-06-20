@@ -29,6 +29,50 @@
           "src/main/resources/assets/ciraehannah/models/item/noodles.json"
         ]
       }
+    },
+    {
+      "name": "Wand",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ciraehannah/item/WandItem.java",
+          "src/main/resources/assets/ciraehannah/models/item/wand.json"
+        ]
+      }
+    },
+    {
+      "name": "WandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ciraehannah/procedures/WandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -36,6 +80,7 @@
   "language_map": {
     "en_us": {
       "item.ciraehannah.noodles": "Noodles",
+      "item.ciraehannah.wand": "Wand",
       "block.ciraehannah.cirae": "Cirae"
     }
   },
