@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.lolablack.init.LolaBlackModTabs;
 import net.mcreator.lolablack.init.LolaBlackModItems;
+import net.mcreator.lolablack.init.LolaBlackModEntities;
 import net.mcreator.lolablack.init.LolaBlackModBlocks;
 
 import java.util.function.Supplier;
@@ -54,6 +55,7 @@ public class LolaBlackMod {
 
 		LolaBlackModBlocks.REGISTRY.register(bus);
 		LolaBlackModItems.REGISTRY.register(bus);
+		LolaBlackModEntities.REGISTRY.register(bus);
 
 	}
 

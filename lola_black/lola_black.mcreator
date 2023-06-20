@@ -86,6 +86,22 @@
           "src/main/java/net/mcreator/lolablack/item/WandItem.java"
         ]
       }
+    },
+    {
+      "name": "Spiderfjf",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spiderfjf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lola_black/models/item/spiderfjf_spawn_egg.json",
+          "src/main/java/net/mcreator/lolablack/entity/SpiderfjfEntity.java",
+          "src/main/resources/data/lola_black/forge/biome_modifier/spiderfjf_biome_modifier.json",
+          "src/main/java/net/mcreator/lolablack/client/renderer/SpiderfjfRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -97,8 +113,10 @@
       "item.lola_black.greyamour_chestplate": "Greyamour Body",
       "item.lola_black.wand": "Wand",
       "block.lola_black.myface": "Myface",
+      "item.lola_black.spiderfjf_spawn_egg": "Spiderfjf Spawn Egg",
       "item.lola_black.greyamour_leggings": "Greyamour Leggings",
-      "itemGroup.tabhello": "Hello"
+      "itemGroup.tabhello": "Hello",
+      "entity.lola_black.spiderfjf": "Spiderfjf"
     }
   },
   "foldersRoot": {
