@@ -29,12 +29,57 @@
           "src/main/resources/assets/josephine/models/item/cake.json"
         ]
       }
+    },
+    {
+      "name": "Wond",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wond",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/josephine/models/item/wond.json",
+          "src/main/java/net/mcreator/josephine/item/WondItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WondRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wond_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/josephine/procedures/WondRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.josephine.wond": "Wond",
       "block.josephine.josephine": "Josephine",
       "item.josephine.cake": "Cake"
     }
