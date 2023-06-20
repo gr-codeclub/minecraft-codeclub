@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7befe8ea-373f-4dc4-848a-a9e8f77e5f43" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../teddy/.mcreator/setupInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teddy/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../teddy/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teddy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../teddy/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teddy/fortnite_battle_bass.mcreator" beforeDir="false" afterPath="$PROJECT_DIR$/../teddy/fortnite_battle_bass.mcreator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teddy/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../teddy/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teddy/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../teddy/gradlew" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2RTUxAnLigPcy8lSh34kZytMWRA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/minecraft-codeclub/teddy"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7befe8ea-373f-4dc4-848a-a9e8f77e5f43" name="Changes" comment="" />
+      <created>1687273812689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687273812689</updated>
+    </task>
+    <servers />
+  </component>
+</project>

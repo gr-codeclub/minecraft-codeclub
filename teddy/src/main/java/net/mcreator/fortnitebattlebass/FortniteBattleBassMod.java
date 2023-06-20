@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.fortnitebattlebass.init.FortniteBattleBassModItems;
+import net.mcreator.fortnitebattlebass.init.FortniteBattleBassModEntities;
 import net.mcreator.fortnitebattlebass.init.FortniteBattleBassModBlocks;
 
 import java.util.function.Supplier;
@@ -53,6 +54,7 @@ public class FortniteBattleBassMod {
 
 		FortniteBattleBassModBlocks.REGISTRY.register(bus);
 		FortniteBattleBassModItems.REGISTRY.register(bus);
+		FortniteBattleBassModEntities.REGISTRY.register(bus);
 
 	}
 

@@ -7,6 +7,7 @@ package net.mcreator.fortnitebattlebass.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -25,6 +26,7 @@ public class FortniteBattleBassModItems {
 	public static final RegistryObject<Item> LOL_BOOTS = REGISTRY.register("lol_boots", () -> new LolItem.Boots());
 	public static final RegistryObject<Item> TEDDY = block(FortniteBattleBassModBlocks.TEDDY, CreativeModeTab.TAB_MISC);
 	public static final RegistryObject<Item> TNT_WAND = REGISTRY.register("tnt_wand", () -> new TntWandItem());
+	public static final RegistryObject<Item> DEXTER_SPAWN_EGG = REGISTRY.register("dexter_spawn_egg", () -> new ForgeSpawnEggItem(FortniteBattleBassModEntities.DEXTER, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

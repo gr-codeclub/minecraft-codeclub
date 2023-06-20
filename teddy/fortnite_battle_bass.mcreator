@@ -76,6 +76,22 @@
           "src/main/resources/assets/fortnite_battle_bass/models/item/tnt_wand.json"
         ]
       }
+    },
+    {
+      "name": "Dexter",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dexter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fortnitebattlebass/client/renderer/DexterRenderer.java",
+          "src/main/resources/assets/fortnite_battle_bass/models/item/dexter_spawn_egg.json",
+          "src/main/java/net/mcreator/fortnitebattlebass/entity/DexterEntity.java",
+          "src/main/resources/data/fortnite_battle_bass/forge/biome_modifier/dexter_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -87,7 +103,9 @@
       "item.fortnite_battle_bass.tnt_wand": "Tnt Wand",
       "item.fortnite_battle_bass.lol_chestplate": "dexters terrible hat",
       "item.fortnite_battle_bass.lol_boots": "dexters terrible hat",
-      "item.fortnite_battle_bass.lol_leggings": "dexters terrible hat"
+      "item.fortnite_battle_bass.lol_leggings": "dexters terrible hat",
+      "entity.fortnite_battle_bass.dexter": "Dexter",
+      "item.fortnite_battle_bass.dexter_spawn_egg": "Dexter Spawn Egg"
     }
   },
   "foldersRoot": {

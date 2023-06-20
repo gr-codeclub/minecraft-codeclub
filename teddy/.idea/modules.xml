@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.teddy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.teddy.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.teddy.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.teddy.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/teddy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/teddy.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/teddy.test.iml" filepath="$PROJECT_DIR$/.idea/modules/teddy.test.iml" />
     </modules>
