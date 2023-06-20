@@ -29,6 +29,50 @@
           "src/main/resources/assets/omar/models/item/cake.json"
         ]
       }
+    },
+    {
+      "name": "Wandtool",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wandtool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/omar/models/item/wandtool.json",
+          "src/main/java/net/mcreator/omar/item/WandtoolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WandtoolRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wandtool_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/omar/procedures/WandtoolRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -36,7 +80,8 @@
   "language_map": {
     "en_us": {
       "block.omar.omar": "Omar",
-      "item.omar.cake": "Cake"
+      "item.omar.cake": "Cake",
+      "item.omar.wandtool": "Wandtool"
     }
   },
   "foldersRoot": {
