@@ -43,12 +43,57 @@
           "src/main/java/net/mcreator/jamilafarah/item/PizzaTwoItem.java"
         ]
       }
+    },
+    {
+      "name": "Magicwand",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicwand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamilafarah/item/MagicwandItem.java",
+          "src/main/resources/assets/jamilafarah/models/item/magicwand.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicwandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicwand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jamilafarah/procedures/MagicwandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.jamilafarah.magicwand": "Magicwand",
       "item.jamilafarah.pizza_two": "Pizza Two",
       "block.jamilafarah.jamila": "Jamila",
       "item.jamilafarah.pizza": "Pizza"

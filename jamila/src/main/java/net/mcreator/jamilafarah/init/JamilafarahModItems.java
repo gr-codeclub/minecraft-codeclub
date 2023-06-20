@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.jamilafarah.item.PizzaTwoItem;
 import net.mcreator.jamilafarah.item.PizzaItem;
+import net.mcreator.jamilafarah.item.MagicwandItem;
 import net.mcreator.jamilafarah.JamilafarahMod;
 
 public class JamilafarahModItems {
@@ -22,6 +23,7 @@ public class JamilafarahModItems {
 	public static final RegistryObject<Item> PIZZA = REGISTRY.register("pizza", () -> new PizzaItem());
 	public static final RegistryObject<Item> JAMILA = block(JamilafarahModBlocks.JAMILA, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> PIZZA_TWO = REGISTRY.register("pizza_two", () -> new PizzaTwoItem());
+	public static final RegistryObject<Item> MAGICWAND = REGISTRY.register("magicwand", () -> new MagicwandItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
