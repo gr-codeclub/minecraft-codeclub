@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.rougayatou.init.RougayatouModItems;
+import net.mcreator.rougayatou.init.RougayatouModEntities;
 import net.mcreator.rougayatou.init.RougayatouModBlocks;
 
 import java.util.function.Supplier;
@@ -53,6 +54,7 @@ public class RougayatouMod {
 
 		RougayatouModBlocks.REGISTRY.register(bus);
 		RougayatouModItems.REGISTRY.register(bus);
+		RougayatouModEntities.REGISTRY.register(bus);
 
 	}
 
