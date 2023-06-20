@@ -29,6 +29,50 @@
           "src/main/resources/assets/lisan/models/item/reman.json"
         ]
       }
+    },
+    {
+      "name": "Wand",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lisan/models/item/wand.json",
+          "src/main/java/net/mcreator/lisan/item/WandItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lisan/procedures/WandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -36,7 +80,8 @@
   "language_map": {
     "en_us": {
       "item.lisan.reman": "Reman",
-      "block.lisan.lisan": "Lisan"
+      "block.lisan.lisan": "Lisan",
+      "item.lisan.wand": "Wand"
     }
   },
   "foldersRoot": {
