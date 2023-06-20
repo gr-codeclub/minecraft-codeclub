@@ -29,6 +29,50 @@
           "src/main/resources/assets/lalsianhonsukte/models/item/jawbreaker.json"
         ]
       }
+    },
+    {
+      "name": "WandRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lalsianhonsukte/procedures/WandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wand",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lalsianhonsukte/item/WandItem.java",
+          "src/main/resources/assets/lalsianhonsukte/models/item/wand.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -36,6 +80,7 @@
   "language_map": {
     "en_us": {
       "block.lalsianhonsukte.lalsian": "Lalsian",
+      "item.lalsianhonsukte.wand": "Wand",
       "item.lalsianhonsukte.jawbreaker": "Jawbreaker"
     }
   },
