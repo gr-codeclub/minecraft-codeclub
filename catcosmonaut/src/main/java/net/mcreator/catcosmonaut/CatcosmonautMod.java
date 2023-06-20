@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.catcosmonaut.init.CatcosmonautModItems;
+import net.mcreator.catcosmonaut.init.CatcosmonautModEntities;
 import net.mcreator.catcosmonaut.init.CatcosmonautModBlocks;
 
 import java.util.function.Supplier;
@@ -53,6 +54,7 @@ public class CatcosmonautMod {
 
 		CatcosmonautModBlocks.REGISTRY.register(bus);
 		CatcosmonautModItems.REGISTRY.register(bus);
+		CatcosmonautModEntities.REGISTRY.register(bus);
 
 	}
 

@@ -76,6 +76,22 @@
           "src/main/resources/assets/catcosmonaut/models/item/cat_wand.json"
         ]
       }
+    },
+    {
+      "name": "Chowchow",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chowchow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/catcosmonaut/client/renderer/ChowchowRenderer.java",
+          "src/main/java/net/mcreator/catcosmonaut/entity/ChowchowEntity.java",
+          "src/main/resources/data/catcosmonaut/forge/biome_modifier/chowchow_biome_modifier.json",
+          "src/main/resources/assets/catcosmonaut/models/item/chowchow_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -87,7 +103,9 @@
       "item.catcosmonaut.cattshirt_leggings": "Jeans",
       "item.catcosmonaut.cat_wand": "Cat Wand",
       "item.catcosmonaut.cattshirt_helmet": "Cathead",
-      "item.catcosmonaut.cattshirt_boots": "Trainers"
+      "item.catcosmonaut.cattshirt_boots": "Trainers",
+      "item.catcosmonaut.chowchow_spawn_egg": "Chowchow Spawn Egg",
+      "entity.catcosmonaut.chowchow": "Chowchow"
     }
   },
   "foldersRoot": {

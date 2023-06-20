@@ -4,5 +4,7 @@
   "item.catcosmonaut.cattshirt_leggings": "Jeans",
   "item.catcosmonaut.cat_wand": "Cat Wand",
   "item.catcosmonaut.cattshirt_helmet": "Cathead",
-  "item.catcosmonaut.cattshirt_boots": "Trainers"
+  "item.catcosmonaut.cattshirt_boots": "Trainers",
+  "item.catcosmonaut.chowchow_spawn_egg": "Chowchow Spawn Egg",
+  "entity.catcosmonaut.chowchow": "Chowchow"
 }
