@@ -7,6 +7,7 @@ package net.mcreator.kristan.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -35,6 +36,7 @@ public class KristanModItems {
 	public static final RegistryObject<Item> EMERALD_ARMOU_ARMOR_LEGGINGS = REGISTRY.register("emerald_armou_armor_leggings", () -> new EmeraldArmouArmorItem.Leggings());
 	public static final RegistryObject<Item> EMERALD_ARMOU_ARMOR_BOOTS = REGISTRY.register("emerald_armou_armor_boots", () -> new EmeraldArmouArmorItem.Boots());
 	public static final RegistryObject<Item> WAND = REGISTRY.register("wand", () -> new WandItem());
+	public static final RegistryObject<Item> LOOMON_SPAWN_EGG = REGISTRY.register("loomon_spawn_egg", () -> new ForgeSpawnEggItem(KristanModEntities.LOOMON, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

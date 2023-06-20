@@ -223,6 +223,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Loomon",
+      "type": "livingentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loomon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kristan/client/renderer/LoomonRenderer.java",
+          "src/main/resources/assets/kristan/models/item/loomon_spawn_egg.json",
+          "src/main/java/net/mcreator/kristan/entity/LoomonEntity.java",
+          "src/main/resources/data/kristan/forge/biome_modifier/loomon_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -233,9 +249,11 @@
       "item.kristan.emerald_armou_armor_boots": "EmeraldArmou Boots",
       "item.kristan.emerald_armour_helmet": "Emerald Armour Helmet",
       "item.kristan.test_armor_boots": "Test Boots",
-      "item.kristan.wand": "Wand",
-      "item.kristan.emerald_armou_armor_helmet": "EmeraldArmou Helmet",
       "item.kristan.test_armor_helmet": "Test Helmet",
+      "item.kristan.emerald_armou_armor_helmet": "EmeraldArmou Helmet",
+      "item.kristan.wand": "Wand",
+      "item.kristan.loomon_spawn_egg": "Loomon Spawn Egg",
+      "entity.kristan.loomon": "Loomon",
       "item.kristan.test_armor_leggings": "Test Leggings",
       "block.kristan.ritablock": "Ritablock",
       "item.kristan.emerald_armour_chestplate": "Emerald Armour Body",

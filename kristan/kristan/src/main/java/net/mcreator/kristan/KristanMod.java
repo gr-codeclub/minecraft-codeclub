@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.kristan.init.KristanModItems;
+import net.mcreator.kristan.init.KristanModEntities;
 import net.mcreator.kristan.init.KristanModBlocks;
 
 import java.util.function.Supplier;
@@ -53,6 +54,7 @@ public class KristanMod {
 
 		KristanModBlocks.REGISTRY.register(bus);
 		KristanModItems.REGISTRY.register(bus);
+		KristanModEntities.REGISTRY.register(bus);
 
 	}
 

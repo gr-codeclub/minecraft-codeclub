@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.kristan.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.kristan.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.kristan.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.kristan.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kristan.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kristan.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kristan.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kristan.test.iml" />
     </modules>

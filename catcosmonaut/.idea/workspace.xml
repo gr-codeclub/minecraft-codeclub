@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2309be17-cdcd-4104-a938-b8a1eecfb543" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/.idea/modules/kristan.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/.idea/modules/kristan.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/.idea/modules/kristan.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/.idea/modules/kristan.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmouArmor.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmouArmor.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmouArmorBodyRecipe.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmouArmorBodyRecipe.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmouArmorBootsRecipe.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmouArmorBootsRecipe.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmouArmorHelmetRecipe.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmouArmorHelmetRecipe.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmouArmorLeggingsRecipe.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmouArmorLeggingsRecipe.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmour.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmour.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmourRecipe.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/EmeraldArmourRecipe.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/Ritablock.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/Ritablock.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/TestArmor.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/TestArmor.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/TestArmorBodyRecipe.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/TestArmorBodyRecipe.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/TestArmorBootsRecipe.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/TestArmorBootsRecipe.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/TestArmorHelmetRecipe.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/TestArmorHelmetRecipe.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/TestArmorLeggingsRecipe.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/TestArmorLeggingsRecipe.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/Wand.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/Wand.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/elements/WandRightclickedWitherSpawns.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/elements/WandRightclickedWitherSpawns.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/kristan.mcreator" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/kristan.mcreator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/KristanMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/KristanMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/block/RitablockBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/block/RitablockBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/init/KristanModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/init/KristanModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/init/KristanModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/init/KristanModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/item/EmeraldArmouArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/item/EmeraldArmouArmorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/item/EmeraldArmourItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/item/EmeraldArmourItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/item/TestArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/item/TestArmorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/item/WandItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/item/WandItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/procedures/WandRightclickedWitherSpawnsProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/java/net/mcreator/kristan/procedures/WandRightclickedWitherSpawnsProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/blockstates/ritablock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/blockstates/ritablock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/block/ritablock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/block/ritablock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armou_armor_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armou_armor_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armou_armor_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armou_armor_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armou_armor_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armou_armor_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armou_armor_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armou_armor_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armour_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armour_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armour_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armour_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armour_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armour_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armour_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/emerald_armour_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/ritablock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/ritablock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/test_armor_boots.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/test_armor_boots.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/test_armor_chestplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/test_armor_chestplate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/test_armor_helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/test_armor_helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/test_armor_leggings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/test_armor_leggings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/wand.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/assets/kristan/models/item/wand.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/emerald_armou_armor_body_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/emerald_armou_armor_body_recipe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/emerald_armou_armor_boots_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/emerald_armou_armor_boots_recipe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/emerald_armou_armor_helmet_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/emerald_armou_armor_helmet_recipe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/emerald_armou_armor_leggings_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/emerald_armou_armor_leggings_recipe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/emerald_armour_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/emerald_armour_recipe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/test_armor_body_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/test_armor_body_recipe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/test_armor_boots_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/test_armor_boots_recipe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/test_armor_helmet_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/test_armor_helmet_recipe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/test_armor_leggings_recipe.json" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/data/kristan/recipes/test_armor_leggings_recipe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/../kristan/kristan/src/main/resources/pack.mcmeta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2RTUg0l870rFRaLWCLnHWuQcfWy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/minecraft-codeclub/kristan/kristan"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2309be17-cdcd-4104-a938-b8a1eecfb543" name="Changes" comment="" />
+      <created>1687273678475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687273678475</updated>
+    </task>
+    <servers />
+  </component>
+</project>
