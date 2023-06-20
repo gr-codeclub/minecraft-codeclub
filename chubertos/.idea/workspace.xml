@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19ab3a3e-4ce9-472b-bd7e-f4a7ae692a5d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/chubertos.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/chubertos.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/chubertos.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/chubertos.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Khaledblock.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Khaledblock.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/ChubertosMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/ChubertosMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/block/KhaledblockBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/block/KhaledblockBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/init/ChubertosModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/init/ChubertosModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/init/ChubertosModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/init/ChubertosModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/item/Dexter3Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/item/Dexter3Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/item/DexterItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/item/DexterItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/procedures/Dexter3RightclickedProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/mcreator/chubertos/procedures/Dexter3RightclickedProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/chubertos/blockstates/khaledblock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/chubertos/blockstates/khaledblock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/chubertos/models/block/khaledblock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/chubertos/models/block/khaledblock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/chubertos/models/item/khaledblock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/chubertos/models/item/khaledblock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <option name="groupModules" value="false" />
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chubertos" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chubertos" type="f1a62948:ProjectNode" />
+                <item name="chubertos" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chubertos" type="f1a62948:ProjectNode" />
+                <item name="chubertos" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chubertos" type="f1a62948:ProjectNode" />
+                <item name="chubertos" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2QeXJcWAqedVQvP5Io1Au20TJPe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/minecraft-codeclub/chubertos&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="chubertos [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.chubertos [runClient]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19ab3a3e-4ce9-472b-bd7e-f4a7ae692a5d" name="Changes" comment="" />
+      <created>1685714953684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685714953684</updated>
+    </task>
+    <servers />
+  </component>
+</project>

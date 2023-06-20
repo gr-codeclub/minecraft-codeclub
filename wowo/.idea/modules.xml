@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.wowo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.wowo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.wowo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.wowo.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/wowo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wowo.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/wowo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/wowo.test.iml" />
     </modules>
