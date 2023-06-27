@@ -29,6 +29,18 @@
           "src/main/resources/assets/leanamae/models/item/cake.json"
         ]
       }
+    },
+    {
+      "name": "Golden",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/leanamae/world/biome/GoldenBiome.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -36,6 +48,7 @@
   "language_map": {
     "en_us": {
       "block.leanamae.leanamae": "Leanamae",
+      "biome.leanamae.golden": "Golden",
       "item.leanamae.cake": "Cake"
     }
   },

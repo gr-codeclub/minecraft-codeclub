@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.leanamae.init.LeanamaeModItems;
 import net.mcreator.leanamae.init.LeanamaeModBlocks;
+import net.mcreator.leanamae.init.LeanamaeModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,6 +55,7 @@ public class LeanamaeMod {
 		LeanamaeModBlocks.REGISTRY.register(bus);
 		LeanamaeModItems.REGISTRY.register(bus);
 
+		LeanamaeModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
