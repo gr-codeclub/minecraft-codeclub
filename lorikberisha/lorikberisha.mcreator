@@ -29,6 +29,18 @@
           "src/main/java/net/mcreator/lorikberisha/item/NoodelsItem.java"
         ]
       }
+    },
+    {
+      "name": "Tnt",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lorikberisha/world/biome/TntBiome.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -36,7 +48,8 @@
   "language_map": {
     "en_us": {
       "block.lorikberisha.fortnite": "Fortnite",
-      "item.lorikberisha.noodels": "Noodels"
+      "item.lorikberisha.noodels": "Noodels",
+      "biome.lorikberisha.tnt": "Tnt"
     }
   },
   "foldersRoot": {

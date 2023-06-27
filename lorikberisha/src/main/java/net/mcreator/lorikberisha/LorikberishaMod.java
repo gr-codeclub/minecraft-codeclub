@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.lorikberisha.init.LorikberishaModItems;
 import net.mcreator.lorikberisha.init.LorikberishaModBlocks;
+import net.mcreator.lorikberisha.init.LorikberishaModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,6 +55,7 @@ public class LorikberishaMod {
 		LorikberishaModBlocks.REGISTRY.register(bus);
 		LorikberishaModItems.REGISTRY.register(bus);
 
+		LorikberishaModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
