@@ -5,7 +5,7 @@
       "type": "block",
       "sortid": 2,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "safaanaumrahman",
       "metadata": {
         "files": [
@@ -36,6 +36,7 @@
     {
       "name": "CatWandRightclicked",
       "type": "procedure",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cat_wand_rightclicked",
@@ -90,6 +91,37 @@
           "src/main/java/net/mcreator/catcosmonaut/entity/ChowchowEntity.java",
           "src/main/resources/data/catcosmonaut/forge/biome_modifier/chowchow_biome_modifier.json",
           "src/main/resources/assets/catcosmonaut/models/item/chowchow_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "SafaanaumrahmanOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "safaanaumrahman_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/catcosmonaut/procedures/SafaanaumrahmanOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }

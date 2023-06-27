@@ -25,7 +25,7 @@ public class CatcosmonautModEntities {
 	public static final RegistryObject<EntityType<ChowchowEntity>> CHOWCHOW = register("chowchow",
 			EntityType.Builder.<ChowchowEntity>of(ChowchowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ChowchowEntity::new)
 
-					.sized(0.6f, 0.7f));
+					.sized(0.9f, 0.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
