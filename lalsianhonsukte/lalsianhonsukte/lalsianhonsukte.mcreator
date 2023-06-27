@@ -73,6 +73,18 @@
           "src/main/resources/assets/lalsianhonsukte/models/item/wand.json"
         ]
       }
+    },
+    {
+      "name": "Mine",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lalsianhonsukte/world/biome/MineBiome.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -81,7 +93,8 @@
     "en_us": {
       "block.lalsianhonsukte.lalsian": "Lalsian",
       "item.lalsianhonsukte.wand": "Wand",
-      "item.lalsianhonsukte.jawbreaker": "Jawbreaker"
+      "item.lalsianhonsukte.jawbreaker": "Jawbreaker",
+      "biome.lalsianhonsukte.mine": "Mine"
     }
   },
   "foldersRoot": {

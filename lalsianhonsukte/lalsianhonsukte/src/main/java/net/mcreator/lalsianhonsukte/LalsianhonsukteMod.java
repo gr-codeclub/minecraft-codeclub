@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.lalsianhonsukte.init.LalsianhonsukteModItems;
 import net.mcreator.lalsianhonsukte.init.LalsianhonsukteModBlocks;
+import net.mcreator.lalsianhonsukte.init.LalsianhonsukteModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,6 +55,7 @@ public class LalsianhonsukteMod {
 		LalsianhonsukteModBlocks.REGISTRY.register(bus);
 		LalsianhonsukteModItems.REGISTRY.register(bus);
 
+		LalsianhonsukteModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
