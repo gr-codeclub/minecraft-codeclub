@@ -73,6 +73,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "London",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "london",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/josephine/world/biome/LondonBiome.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -81,6 +93,7 @@
     "en_us": {
       "item.josephine.wond": "Wond",
       "block.josephine.josephine": "Josephine",
+      "biome.josephine.london": "London",
       "item.josephine.cake": "Cake"
     }
   },

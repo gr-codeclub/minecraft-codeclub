@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.josephine.init.JosephineModItems;
 import net.mcreator.josephine.init.JosephineModBlocks;
+import net.mcreator.josephine.init.JosephineModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,6 +55,7 @@ public class JosephineMod {
 		JosephineModBlocks.REGISTRY.register(bus);
 		JosephineModItems.REGISTRY.register(bus);
 
+		JosephineModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
