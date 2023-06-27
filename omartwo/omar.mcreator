@@ -73,6 +73,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "Sewwwwy",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sewwwwy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/omar/world/biome/SewwwwyBiome.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -80,6 +92,7 @@
   "language_map": {
     "en_us": {
       "block.omar.omar": "Omar",
+      "biome.omar.sewwwwy": "Sewwwwy",
       "item.omar.cake": "Cake",
       "item.omar.wandtool": "Wandtool"
     }

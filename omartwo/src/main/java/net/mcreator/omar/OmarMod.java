@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.omar.init.OmarModItems;
 import net.mcreator.omar.init.OmarModBlocks;
+import net.mcreator.omar.init.OmarModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,6 +55,7 @@ public class OmarMod {
 		OmarModBlocks.REGISTRY.register(bus);
 		OmarModItems.REGISTRY.register(bus);
 
+		OmarModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
