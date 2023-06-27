@@ -5,7 +5,7 @@
       "type": "block",
       "sortid": 2,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "rougayatoublock",
       "metadata": {
         "files": [
@@ -50,6 +50,7 @@
     {
       "name": "HappyEntityIsHurt",
       "type": "procedure",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "happy_entity_is_hurt",
@@ -90,6 +91,37 @@
           "src/main/java/net/mcreator/rougayatou/client/renderer/HappyRenderer.java",
           "src/main/resources/assets/rougayatou/models/item/happy_spawn_egg.json",
           "src/main/resources/data/rougayatou/forge/biome_modifier/happy_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "RougayatoublockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rougayatoublock_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rougayatou/procedures/RougayatoublockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
