@@ -5,7 +5,7 @@
       "type": "block",
       "sortid": 2,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "teddy",
       "metadata": {
         "files": [
@@ -36,6 +36,7 @@
     {
       "name": "TntWandRightclicked",
       "type": "procedure",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tnt_wand_rightclicked",
@@ -90,6 +91,37 @@
           "src/main/resources/assets/fortnite_battle_bass/models/item/dexter_spawn_egg.json",
           "src/main/java/net/mcreator/fortnitebattlebass/entity/DexterEntity.java",
           "src/main/resources/data/fortnite_battle_bass/forge/biome_modifier/dexter_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "TeddyOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "teddy_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fortnitebattlebass/procedures/TeddyOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
