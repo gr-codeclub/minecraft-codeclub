@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.jamilafarah.init.JamilafarahModItems;
 import net.mcreator.jamilafarah.init.JamilafarahModBlocks;
+import net.mcreator.jamilafarah.init.JamilafarahModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,6 +55,7 @@ public class JamilafarahMod {
 		JamilafarahModBlocks.REGISTRY.register(bus);
 		JamilafarahModItems.REGISTRY.register(bus);
 
+		JamilafarahModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
