@@ -5,7 +5,7 @@
       "type": "block",
       "sortid": 2,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "khaledblock",
       "metadata": {
         "files": [
@@ -50,6 +50,7 @@
     {
       "name": "Dexter3Rightclicked",
       "type": "procedure",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dexter_3_rightclicked",
@@ -90,6 +91,68 @@
           "src/main/java/net/mcreator/chubertos/client/renderer/BlexterRenderer.java",
           "src/main/resources/assets/chubertos/models/item/blexter_spawn_egg.json",
           "src/main/java/net/mcreator/chubertos/entity/BlexterEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "KhaledblockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "khaledblock_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chubertos/procedures/KhaledblockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlexterItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blexter_it_is_struck_by_lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chubertos/procedures/BlexterItIsStruckByLightningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
