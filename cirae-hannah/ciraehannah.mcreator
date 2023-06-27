@@ -73,6 +73,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "Forest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ciraehannah/world/biome/ForestBiome.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -81,7 +93,8 @@
     "en_us": {
       "item.ciraehannah.noodles": "Noodles",
       "item.ciraehannah.wand": "Wand",
-      "block.ciraehannah.cirae": "Cirae"
+      "block.ciraehannah.cirae": "Cirae",
+      "biome.ciraehannah.forest": "Forest"
     }
   },
   "foldersRoot": {

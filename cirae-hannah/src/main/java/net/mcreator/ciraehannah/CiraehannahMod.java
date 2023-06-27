@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.ciraehannah.init.CiraehannahModItems;
 import net.mcreator.ciraehannah.init.CiraehannahModBlocks;
+import net.mcreator.ciraehannah.init.CiraehannahModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,6 +55,7 @@ public class CiraehannahMod {
 		CiraehannahModBlocks.REGISTRY.register(bus);
 		CiraehannahModItems.REGISTRY.register(bus);
 
+		CiraehannahModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
