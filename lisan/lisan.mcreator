@@ -73,6 +73,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "Naruto",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lisan/world/biome/NarutoBiome.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -80,6 +92,7 @@
   "language_map": {
     "en_us": {
       "item.lisan.reman": "Reman",
+      "biome.lisan.naruto": "Naruto",
       "block.lisan.lisan": "Lisan",
       "item.lisan.wand": "Wand"
     }

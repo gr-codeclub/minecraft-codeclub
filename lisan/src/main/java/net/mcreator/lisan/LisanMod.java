@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.lisan.init.LisanModItems;
 import net.mcreator.lisan.init.LisanModBlocks;
+import net.mcreator.lisan.init.LisanModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,6 +55,7 @@ public class LisanMod {
 		LisanModBlocks.REGISTRY.register(bus);
 		LisanModItems.REGISTRY.register(bus);
 
+		LisanModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
