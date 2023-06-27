@@ -29,6 +29,62 @@
           "src/main/java/net/mcreator/ronaldo/item/CakeItem.java"
         ]
       }
+    },
+    {
+      "name": "HARRYBOTTLEOFWATER",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harrybottleofwater",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ronaldo/item/HARRYBOTTLEOFWATERItem.java",
+          "src/main/resources/assets/ronaldo/models/item/harrybottleofwater.json"
+        ]
+      }
+    },
+    {
+      "name": "HARRYBOTTLEOFWATERRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harrybottleofwater_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ronaldo/procedures/HARRYBOTTLEOFWATERRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Neymar",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neymar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ronaldo/world/biome/NeymarBiome.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -36,6 +92,8 @@
   "language_map": {
     "en_us": {
       "block.ronaldo.ronaldo": "Ronaldo",
+      "item.ronaldo.harrybottleofwater": "HARRYBOTTLEOFWATER",
+      "biome.ronaldo.neymar": "Neymar",
       "item.ronaldo.cake": "Cake"
     }
   },

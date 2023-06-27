@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.ronaldo.init.RonaldoModItems;
 import net.mcreator.ronaldo.init.RonaldoModBlocks;
+import net.mcreator.ronaldo.init.RonaldoModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,6 +55,7 @@ public class RonaldoMod {
 		RonaldoModBlocks.REGISTRY.register(bus);
 		RonaldoModItems.REGISTRY.register(bus);
 
+		RonaldoModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
