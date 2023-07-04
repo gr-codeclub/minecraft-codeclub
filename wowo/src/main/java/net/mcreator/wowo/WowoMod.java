@@ -30,7 +30,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.wowo.init.WowoModItems;
+import net.mcreator.wowo.init.WowoModEntities;
 import net.mcreator.wowo.init.WowoModBlocks;
+import net.mcreator.wowo.init.WowoModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -53,7 +55,9 @@ public class WowoMod {
 
 		WowoModBlocks.REGISTRY.register(bus);
 		WowoModItems.REGISTRY.register(bus);
+		WowoModEntities.REGISTRY.register(bus);
 
+		WowoModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

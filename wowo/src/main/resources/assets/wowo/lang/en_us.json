@@ -1,8 +1,11 @@
 {
+  "biome.wowo.wowoboi": "Wowoboi",
+  "item.wowo.dark_golem_spawn_egg": "Dark Golem Spawn Egg",
   "block.wowo.fady": "Fady",
   "item.wowo.theliongodsarmour_leggings": "THELIONGODSARMOUR Leggings",
   "item.wowo.theliongodsarmour_chestplate": "THELIONGODSARMOUR Body",
   "item.wowo.theliongodsarmour_helmet": "THELIONGODSARMOUR Helmet",
+  "entity.wowo.dark_golem": "Dark Golem",
   "item.wowo.theliongodsarmour_boots": "THELIONGODSARMOUR Boots",
   "item.wowo.anvilwand": "Anvilwand"
 }
