@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.kristan.init.KristanModItems;
 import net.mcreator.kristan.init.KristanModEntities;
 import net.mcreator.kristan.init.KristanModBlocks;
+import net.mcreator.kristan.init.KristanModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -56,6 +57,7 @@ public class KristanMod {
 		KristanModItems.REGISTRY.register(bus);
 		KristanModEntities.REGISTRY.register(bus);
 
+		KristanModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

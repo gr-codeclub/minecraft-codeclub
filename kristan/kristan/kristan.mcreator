@@ -5,7 +5,7 @@
       "type": "block",
       "sortid": 2,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "ritablock",
       "metadata": {
         "files": [
@@ -201,6 +201,7 @@
     {
       "name": "WandRightclickedWitherSpawns",
       "type": "procedure",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wand_rightclicked_wither_spawns",
@@ -239,6 +240,49 @@
           "src/main/resources/data/kristan/forge/biome_modifier/loomon_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "LemonIsland",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lemon_island",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kristan/world/biome/LemonIslandBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "RitablockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ritablock_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kristan/procedures/RitablockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -249,6 +293,7 @@
       "item.kristan.emerald_armou_armor_boots": "EmeraldArmou Boots",
       "item.kristan.emerald_armour_helmet": "Emerald Armour Helmet",
       "item.kristan.test_armor_boots": "Test Boots",
+      "biome.kristan.lemon_island": "Lemon Island",
       "item.kristan.test_armor_helmet": "Test Helmet",
       "item.kristan.emerald_armou_armor_helmet": "EmeraldArmou Helmet",
       "item.kristan.wand": "Wand",
