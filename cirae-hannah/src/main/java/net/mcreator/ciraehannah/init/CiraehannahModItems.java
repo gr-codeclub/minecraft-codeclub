@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.ciraehannah.item.WandItem;
 import net.mcreator.ciraehannah.item.NoodlesItem;
+import net.mcreator.ciraehannah.item.EndofyouItem;
 import net.mcreator.ciraehannah.CiraehannahMod;
 
 public class CiraehannahModItems {
@@ -22,6 +23,7 @@ public class CiraehannahModItems {
 	public static final RegistryObject<Item> NOODLES = REGISTRY.register("noodles", () -> new NoodlesItem());
 	public static final RegistryObject<Item> CIRAE = block(CiraehannahModBlocks.CIRAE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> WAND = REGISTRY.register("wand", () -> new WandItem());
+	public static final RegistryObject<Item> ENDOFYOU = REGISTRY.register("endofyou", () -> new EndofyouItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

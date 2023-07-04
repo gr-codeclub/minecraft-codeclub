@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "ciraehannah:block/endofyou_portal_ew"
+    },
+    "axis=x": {
+      "model": "ciraehannah:block/endofyou_portal_ns"
+    }
+  }
+}

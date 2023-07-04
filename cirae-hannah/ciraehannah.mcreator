@@ -85,12 +85,36 @@
           "src/main/java/net/mcreator/ciraehannah/world/biome/ForestBiome.java"
         ]
       }
+    },
+    {
+      "name": "Endofyou",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endofyou",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ciraehannah/world/dimension/EndofyouDimension.java",
+          "src/main/resources/data/ciraehannah/dimension_type/endofyou.json",
+          "src/main/java/net/mcreator/ciraehannah/block/EndofyouPortalBlock.java",
+          "src/main/resources/assets/ciraehannah/models/item/endofyou.json",
+          "src/main/resources/assets/ciraehannah/models/block/endofyou_portal_ew.json",
+          "src/main/resources/assets/ciraehannah/models/block/endofyou_portal_ns.json",
+          "src/main/resources/data/ciraehannah/dimension/endofyou.json",
+          "src/main/resources/assets/ciraehannah/blockstates/endofyou_portal.json",
+          "src/main/java/net/mcreator/ciraehannah/world/teleporter/EndofyouTeleporter.java",
+          "src/main/java/net/mcreator/ciraehannah/world/teleporter/EndofyouPortalShape.java",
+          "src/main/java/net/mcreator/ciraehannah/item/EndofyouItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.ciraehannah.endofyou": "Endofyou Portal Igniter",
       "item.ciraehannah.noodles": "Noodles",
       "item.ciraehannah.wand": "Wand",
       "block.ciraehannah.cirae": "Cirae",
