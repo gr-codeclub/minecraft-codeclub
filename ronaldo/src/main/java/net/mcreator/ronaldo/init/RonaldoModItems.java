@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.ronaldo.item.TOPGItem;
 import net.mcreator.ronaldo.item.HARRYBOTTLEOFWATERItem;
 import net.mcreator.ronaldo.item.CakeItem;
 import net.mcreator.ronaldo.RonaldoMod;
@@ -22,6 +23,7 @@ public class RonaldoModItems {
 	public static final RegistryObject<Item> CAKE = REGISTRY.register("cake", () -> new CakeItem());
 	public static final RegistryObject<Item> RONALDO = block(RonaldoModBlocks.RONALDO, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> HARRYBOTTLEOFWATER = REGISTRY.register("harrybottleofwater", () -> new HARRYBOTTLEOFWATERItem());
+	public static final RegistryObject<Item> TOPG = REGISTRY.register("topg", () -> new TOPGItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

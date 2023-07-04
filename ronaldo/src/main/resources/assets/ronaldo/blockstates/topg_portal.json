@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "ronaldo:block/topg_portal_ew"
+    },
+    "axis=x": {
+      "model": "ronaldo:block/topg_portal_ns"
+    }
+  }
+}

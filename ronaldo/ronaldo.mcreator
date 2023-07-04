@@ -85,12 +85,36 @@
           "src/main/java/net/mcreator/ronaldo/world/biome/NeymarBiome.java"
         ]
       }
+    },
+    {
+      "name": "TOPG",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ronaldo/world/dimension/TOPGDimension.java",
+          "src/main/resources/assets/ronaldo/blockstates/topg_portal.json",
+          "src/main/resources/data/ronaldo/dimension/topg.json",
+          "src/main/resources/assets/ronaldo/models/item/topg.json",
+          "src/main/java/net/mcreator/ronaldo/world/teleporter/TOPGTeleporter.java",
+          "src/main/java/net/mcreator/ronaldo/block/TOPGPortalBlock.java",
+          "src/main/resources/data/ronaldo/dimension_type/topg.json",
+          "src/main/java/net/mcreator/ronaldo/item/TOPGItem.java",
+          "src/main/java/net/mcreator/ronaldo/world/teleporter/TOPGPortalShape.java",
+          "src/main/resources/assets/ronaldo/models/block/topg_portal_ns.json",
+          "src/main/resources/assets/ronaldo/models/block/topg_portal_ew.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.ronaldo.topg": "TOPG Portal Igniter",
       "block.ronaldo.ronaldo": "Ronaldo",
       "item.ronaldo.harrybottleofwater": "HARRYBOTTLEOFWATER",
       "biome.ronaldo.neymar": "Neymar",
