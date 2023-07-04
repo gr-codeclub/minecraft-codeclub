@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "lorikberisha:block/battlepass_portal_ew"
+    },
+    "axis=x": {
+      "model": "lorikberisha:block/battlepass_portal_ns"
+    }
+  }
+}

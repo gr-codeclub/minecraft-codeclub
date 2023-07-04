@@ -1,0 +1,42 @@
+{
+  "_fv": 39,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "beaches"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.EMERALD_ORE"
+    },
+    "fluidBlock": {
+      "value": "Blocks.GOLD_ORE"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.GOLD_ORE"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Battlepass Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "ramen",
+    "portalTexture": "gokuepic",
+    "enablePortal": true
+  }
+}

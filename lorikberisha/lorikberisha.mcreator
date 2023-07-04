@@ -41,6 +41,29 @@
           "src/main/java/net/mcreator/lorikberisha/world/biome/TntBiome.java"
         ]
       }
+    },
+    {
+      "name": "Battlepass",
+      "type": "dimension",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battlepass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lorikberisha/models/item/battlepass.json",
+          "src/main/java/net/mcreator/lorikberisha/block/BattlepassPortalBlock.java",
+          "src/main/java/net/mcreator/lorikberisha/world/teleporter/BattlepassPortalShape.java",
+          "src/main/resources/assets/lorikberisha/models/block/battlepass_portal_ew.json",
+          "src/main/java/net/mcreator/lorikberisha/world/teleporter/BattlepassTeleporter.java",
+          "src/main/resources/assets/lorikberisha/models/block/battlepass_portal_ns.json",
+          "src/main/java/net/mcreator/lorikberisha/world/dimension/BattlepassDimension.java",
+          "src/main/resources/assets/lorikberisha/blockstates/battlepass_portal.json",
+          "src/main/resources/data/lorikberisha/dimension_type/battlepass.json",
+          "src/main/resources/data/lorikberisha/dimension/battlepass.json",
+          "src/main/java/net/mcreator/lorikberisha/item/BattlepassItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -49,7 +72,8 @@
     "en_us": {
       "block.lorikberisha.fortnite": "Fortnite",
       "item.lorikberisha.noodels": "Noodels",
-      "biome.lorikberisha.tnt": "Tnt"
+      "biome.lorikberisha.tnt": "Tnt",
+      "item.lorikberisha.battlepass": "Battlepass Portal Igniter"
     }
   },
   "foldersRoot": {

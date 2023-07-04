@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.lorikberisha.block.FortniteBlock;
+import net.mcreator.lorikberisha.block.BattlepassPortalBlock;
 import net.mcreator.lorikberisha.LorikberishaMod;
 
 public class LorikberishaModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, LorikberishaMod.MODID);
 	public static final RegistryObject<Block> FORTNITE = REGISTRY.register("fortnite", () -> new FortniteBlock());
+	public static final RegistryObject<Block> BATTLEPASS_PORTAL = REGISTRY.register("battlepass_portal", () -> new BattlepassPortalBlock());
 }
