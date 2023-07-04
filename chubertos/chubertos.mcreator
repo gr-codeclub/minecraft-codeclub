@@ -155,6 +155,18 @@
           }
         ]
       }
+    },
+    {
+      "name": "Blexter3000",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blexter_3000",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/chubertos/world/biome/Blexter3000Biome.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -165,6 +177,7 @@
       "item.chubertos.blexter_spawn_egg": "Blexter Spawn Egg",
       "item.chubertos.dexter_leggings": "Dexter Leggings",
       "item.chubertos.dexter_chestplate": "Dexter Body",
+      "biome.chubertos.blexter_3000": "Blexter 3 0 0 0",
       "entity.chubertos.blexter": "Blexter",
       "item.chubertos.dexter_3": "Dexter 3",
       "item.chubertos.dexter_helmet": "Dexter Helmet",

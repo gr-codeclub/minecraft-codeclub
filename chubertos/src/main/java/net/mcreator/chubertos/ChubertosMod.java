@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.chubertos.init.ChubertosModItems;
 import net.mcreator.chubertos.init.ChubertosModEntities;
 import net.mcreator.chubertos.init.ChubertosModBlocks;
+import net.mcreator.chubertos.init.ChubertosModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -56,6 +57,7 @@ public class ChubertosMod {
 		ChubertosModItems.REGISTRY.register(bus);
 		ChubertosModEntities.REGISTRY.register(bus);
 
+		ChubertosModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
