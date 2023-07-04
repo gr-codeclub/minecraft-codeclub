@@ -5,7 +5,7 @@
       "type": "block",
       "sortid": 2,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "myface",
       "metadata": {
         "files": [
@@ -46,6 +46,7 @@
     {
       "name": "WandRightclicked",
       "type": "procedure",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wand_rightclicked",
@@ -102,6 +103,46 @@
           "src/main/java/net/mcreator/lolablack/client/renderer/SpiderfjfRenderer.java"
         ]
       }
+    },
+    {
+      "name": "LolaBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lola_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lolablack/world/biome/LolaBiomeBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "MyfaceOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "myface_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -116,7 +157,8 @@
       "item.lola_black.spiderfjf_spawn_egg": "Spiderfjf Spawn Egg",
       "item.lola_black.greyamour_leggings": "Greyamour Leggings",
       "itemGroup.tabhello": "Hello",
-      "entity.lola_black.spiderfjf": "Spiderfjf"
+      "entity.lola_black.spiderfjf": "Spiderfjf",
+      "biome.lola_black.lola_biome": "LolaBiome"
     }
   },
   "foldersRoot": {

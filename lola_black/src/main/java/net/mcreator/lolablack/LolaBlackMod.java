@@ -33,6 +33,7 @@ import net.mcreator.lolablack.init.LolaBlackModTabs;
 import net.mcreator.lolablack.init.LolaBlackModItems;
 import net.mcreator.lolablack.init.LolaBlackModEntities;
 import net.mcreator.lolablack.init.LolaBlackModBlocks;
+import net.mcreator.lolablack.init.LolaBlackModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -57,6 +58,7 @@ public class LolaBlackMod {
 		LolaBlackModItems.REGISTRY.register(bus);
 		LolaBlackModEntities.REGISTRY.register(bus);
 
+		LolaBlackModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.yourname.modid.lola_black.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.yourname.modid.lola_black.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lola_black.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lola_black.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lola_black.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lola_black.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/minecraft-codeclub.lola_black.main.iml" filepath="$PROJECT_DIR$/.idea/modules/minecraft-codeclub.lola_black.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/minecraft-codeclub.lola_black.test.iml" filepath="$PROJECT_DIR$/.idea/modules/minecraft-codeclub.lola_black.test.iml" />
     </modules>
   </component>
 </project>
