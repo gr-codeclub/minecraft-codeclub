@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.fortnitebattlebass.init.FortniteBattleBassModItems;
 import net.mcreator.fortnitebattlebass.init.FortniteBattleBassModEntities;
 import net.mcreator.fortnitebattlebass.init.FortniteBattleBassModBlocks;
+import net.mcreator.fortnitebattlebass.init.FortniteBattleBassModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -56,6 +57,7 @@ public class FortniteBattleBassMod {
 		FortniteBattleBassModItems.REGISTRY.register(bus);
 		FortniteBattleBassModEntities.REGISTRY.register(bus);
 
+		FortniteBattleBassModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

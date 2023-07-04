@@ -6,5 +6,7 @@
   "item.fortnite_battle_bass.lol_boots": "dexters terrible hat",
   "item.fortnite_battle_bass.lol_leggings": "dexters terrible hat",
   "entity.fortnite_battle_bass.dexter": "Dexter",
-  "item.fortnite_battle_bass.dexter_spawn_egg": "Dexter Spawn Egg"
+  "item.fortnite_battle_bass.dexter_spawn_egg": "Dexter Spawn Egg",
+  "biome.fortnite_battle_bass.tnt": "TNT",
+  "item.fortnite_battle_bass.bot": "Bot"
 }

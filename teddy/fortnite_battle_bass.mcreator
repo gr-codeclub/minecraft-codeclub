@@ -124,6 +124,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "TNT",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fortnitebattlebass/world/biome/TNTBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "Bot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fortnite_battle_bass/models/item/bot.json",
+          "src/main/java/net/mcreator/fortnitebattlebass/item/BotItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -137,7 +163,9 @@
       "item.fortnite_battle_bass.lol_boots": "dexters terrible hat",
       "item.fortnite_battle_bass.lol_leggings": "dexters terrible hat",
       "entity.fortnite_battle_bass.dexter": "Dexter",
-      "item.fortnite_battle_bass.dexter_spawn_egg": "Dexter Spawn Egg"
+      "item.fortnite_battle_bass.dexter_spawn_egg": "Dexter Spawn Egg",
+      "biome.fortnite_battle_bass.tnt": "TNT",
+      "item.fortnite_battle_bass.bot": "Bot"
     }
   },
   "foldersRoot": {
