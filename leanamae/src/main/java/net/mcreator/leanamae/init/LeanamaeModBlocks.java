@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.leanamae.block.LeanamaeBlock;
+import net.mcreator.leanamae.block.DiamondshinePortalBlock;
 import net.mcreator.leanamae.LeanamaeMod;
 
 public class LeanamaeModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, LeanamaeMod.MODID);
 	public static final RegistryObject<Block> LEANAMAE = REGISTRY.register("leanamae", () -> new LeanamaeBlock());
+	public static final RegistryObject<Block> DIAMONDSHINE_PORTAL = REGISTRY.register("diamondshine_portal", () -> new DiamondshinePortalBlock());
 }

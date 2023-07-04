@@ -41,6 +41,29 @@
           "src/main/java/net/mcreator/leanamae/world/biome/GoldenBiome.java"
         ]
       }
+    },
+    {
+      "name": "Diamondshine",
+      "type": "dimension",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondshine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/leanamae/world/teleporter/DiamondshinePortalShape.java",
+          "src/main/resources/assets/leanamae/models/block/diamondshine_portal_ns.json",
+          "src/main/java/net/mcreator/leanamae/world/teleporter/DiamondshineTeleporter.java",
+          "src/main/resources/data/leanamae/dimension_type/diamondshine.json",
+          "src/main/resources/assets/leanamae/models/block/diamondshine_portal_ew.json",
+          "src/main/java/net/mcreator/leanamae/world/dimension/DiamondshineDimension.java",
+          "src/main/resources/assets/leanamae/models/item/diamondshine.json",
+          "src/main/resources/assets/leanamae/blockstates/diamondshine_portal.json",
+          "src/main/java/net/mcreator/leanamae/item/DiamondshineItem.java",
+          "src/main/resources/data/leanamae/dimension/diamondshine.json",
+          "src/main/java/net/mcreator/leanamae/block/DiamondshinePortalBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -49,6 +72,7 @@
     "en_us": {
       "block.leanamae.leanamae": "Leanamae",
       "biome.leanamae.golden": "Golden",
+      "item.leanamae.diamondshine": "Diamondshine Portal Igniter",
       "item.leanamae.cake": "Cake"
     }
   },

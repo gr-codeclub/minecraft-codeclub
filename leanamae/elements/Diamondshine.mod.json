@@ -1,0 +1,42 @@
+{
+  "_fv": 39,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Golden"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.DEEPSLATE_GOLD_ORE"
+    },
+    "fluidBlock": {
+      "value": "Blocks.DEEPSLATE_DIAMOND_ORE"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.RAW_GOLD_BLOCK"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Diamondshine Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "cake",
+    "portalTexture": "leanamae",
+    "enablePortal": true
+  }
+}

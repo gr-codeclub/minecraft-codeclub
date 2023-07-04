@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.leanamae.item.DiamondshineItem;
 import net.mcreator.leanamae.item.CakeItem;
 import net.mcreator.leanamae.LeanamaeMod;
 
@@ -20,6 +21,7 @@ public class LeanamaeModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, LeanamaeMod.MODID);
 	public static final RegistryObject<Item> CAKE = REGISTRY.register("cake", () -> new CakeItem());
 	public static final RegistryObject<Item> LEANAMAE = block(LeanamaeModBlocks.LEANAMAE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DIAMONDSHINE = REGISTRY.register("diamondshine", () -> new DiamondshineItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
