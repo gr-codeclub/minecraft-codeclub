@@ -30,8 +30,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.catcosmonaut.init.CatcosmonautModItems;
-import net.mcreator.catcosmonaut.init.CatcosmonautModEntities;
+import net.mcreator.catcosmonaut.init.CatcosmonautModFeatures;
 import net.mcreator.catcosmonaut.init.CatcosmonautModBlocks;
+import net.mcreator.catcosmonaut.init.CatcosmonautModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,8 +55,10 @@ public class CatcosmonautMod {
 
 		CatcosmonautModBlocks.REGISTRY.register(bus);
 		CatcosmonautModItems.REGISTRY.register(bus);
-		CatcosmonautModEntities.REGISTRY.register(bus);
 
+		CatcosmonautModFeatures.REGISTRY.register(bus);
+
+		CatcosmonautModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
