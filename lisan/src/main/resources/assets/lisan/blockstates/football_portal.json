@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "lisan:block/football_portal_ew"
+    },
+    "axis=x": {
+      "model": "lisan:block/football_portal_ns"
+    }
+  }
+}

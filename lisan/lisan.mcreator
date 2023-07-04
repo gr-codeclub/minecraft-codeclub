@@ -85,6 +85,29 @@
           "src/main/java/net/mcreator/lisan/world/biome/NarutoBiome.java"
         ]
       }
+    },
+    {
+      "name": "Football",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "football",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lisan/world/dimension/FootballDimension.java",
+          "src/main/java/net/mcreator/lisan/world/teleporter/FootballPortalShape.java",
+          "src/main/java/net/mcreator/lisan/world/teleporter/FootballTeleporter.java",
+          "src/main/resources/assets/lisan/models/block/football_portal_ns.json",
+          "src/main/resources/assets/lisan/blockstates/football_portal.json",
+          "src/main/resources/data/lisan/dimension_type/football.json",
+          "src/main/java/net/mcreator/lisan/block/FootballPortalBlock.java",
+          "src/main/java/net/mcreator/lisan/item/FootballItem.java",
+          "src/main/resources/assets/lisan/models/block/football_portal_ew.json",
+          "src/main/resources/data/lisan/dimension/football.json",
+          "src/main/resources/assets/lisan/models/item/football.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -94,7 +117,8 @@
       "item.lisan.reman": "Reman",
       "biome.lisan.naruto": "Naruto",
       "block.lisan.lisan": "Lisan",
-      "item.lisan.wand": "Wand"
+      "item.lisan.wand": "Wand",
+      "item.lisan.football": "Football Portal Igniter"
     }
   },
   "foldersRoot": {
