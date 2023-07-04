@@ -1,10 +1,14 @@
 {
   "item.rougayatou.wand": "Wand",
-  "item.rougayatou.pink_helmet": "PINK Helmet",
   "item.rougayatou.pink_leggings": "PINK Leggings",
+  "biome.rougayatou.rougayatou_biome": "Rougayatou Biome",
+  "block.rougayatou.my": "My",
+  "item.rougayatou.happy_spawn_egg": "Happy Spawn Egg",
+  "entity.rougayatou.happy": "Happy",
+  "item.rougayatou.pink_helmet": "PINK Helmet",
+  "fluid.rougayatou.my": "My",
   "item.rougayatou.pink_boots": "PINK Boots",
   "item.rougayatou.pink_chestplate": "PINK Body",
-  "item.rougayatou.happy_spawn_egg": "Happy Spawn Egg",
   "block.rougayatou.rougayatoublock": "Rougayatoublock",
-  "entity.rougayatou.happy": "Happy"
+  "item.rougayatou.my_bucket": "My Bucket"
 }

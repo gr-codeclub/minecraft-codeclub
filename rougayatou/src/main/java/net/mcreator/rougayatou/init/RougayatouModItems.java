@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rougayatou.item.WandItem;
 import net.mcreator.rougayatou.item.PINKItem;
+import net.mcreator.rougayatou.item.MyItem;
 import net.mcreator.rougayatou.RougayatouMod;
 
 public class RougayatouModItems {
@@ -27,6 +28,7 @@ public class RougayatouModItems {
 	public static final RegistryObject<Item> ROUGAYATOUBLOCK = block(RougayatouModBlocks.ROUGAYATOUBLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> WAND = REGISTRY.register("wand", () -> new WandItem());
 	public static final RegistryObject<Item> HAPPY_SPAWN_EGG = REGISTRY.register("happy_spawn_egg", () -> new ForgeSpawnEggItem(RougayatouModEntities.HAPPY, -39322, -26215, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> MY_BUCKET = REGISTRY.register("my_bucket", () -> new MyItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

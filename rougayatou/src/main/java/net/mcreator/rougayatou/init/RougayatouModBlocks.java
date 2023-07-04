@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.rougayatou.block.RougayatoublockBlock;
+import net.mcreator.rougayatou.block.MyBlock;
 import net.mcreator.rougayatou.RougayatouMod;
 
 public class RougayatouModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, RougayatouMod.MODID);
 	public static final RegistryObject<Block> ROUGAYATOUBLOCK = REGISTRY.register("rougayatoublock", () -> new RougayatoublockBlock());
+	public static final RegistryObject<Block> MY = REGISTRY.register("my", () -> new MyBlock());
 }

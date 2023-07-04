@@ -58,7 +58,7 @@ public class RougayatoublockBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		world.setBlock(pos.relative(direction,1), RougayatouModBlocks.ROUGAYATOUBLOCK.get().defaultBlockState(), 3);
+		world.setBlock(pos.relative(entity.getDirection(), 1), RougayatouModBlocks.ROUGAYATOUBLOCK.get().defaultBlockState(), 3);
 		return InteractionResult.SUCCESS;
 	}
 }

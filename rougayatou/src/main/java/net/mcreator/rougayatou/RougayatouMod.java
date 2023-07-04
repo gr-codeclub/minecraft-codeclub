@@ -30,8 +30,11 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.rougayatou.init.RougayatouModItems;
+import net.mcreator.rougayatou.init.RougayatouModFluids;
+import net.mcreator.rougayatou.init.RougayatouModFluidTypes;
 import net.mcreator.rougayatou.init.RougayatouModEntities;
 import net.mcreator.rougayatou.init.RougayatouModBlocks;
+import net.mcreator.rougayatou.init.RougayatouModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -56,6 +59,10 @@ public class RougayatouMod {
 		RougayatouModItems.REGISTRY.register(bus);
 		RougayatouModEntities.REGISTRY.register(bus);
 
+		RougayatouModFluids.REGISTRY.register(bus);
+		RougayatouModFluidTypes.REGISTRY.register(bus);
+
+		RougayatouModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
