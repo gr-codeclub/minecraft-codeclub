@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "lalsianhonsukte:block/dimonddimention_portal_ew"
+    },
+    "axis=x": {
+      "model": "lalsianhonsukte:block/dimonddimention_portal_ns"
+    }
+  }
+}

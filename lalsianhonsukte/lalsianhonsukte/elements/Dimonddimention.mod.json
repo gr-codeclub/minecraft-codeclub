@@ -1,0 +1,45 @@
+{
+  "_fv": 39,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "desert"
+      },
+      {
+        "value": "CUSTOM:Mine"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.DIAMOND_ORE"
+    },
+    "fluidBlock": {
+      "value": "Blocks.EMERALD_ORE"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Lalsian"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Dimonddimention Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "xwand",
+    "portalTexture": "oh_ye",
+    "enablePortal": true
+  }
+}

@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.lalsianhonsukte.block.LalsianBlock;
+import net.mcreator.lalsianhonsukte.block.DimonddimentionPortalBlock;
 import net.mcreator.lalsianhonsukte.LalsianhonsukteMod;
 
 public class LalsianhonsukteModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, LalsianhonsukteMod.MODID);
 	public static final RegistryObject<Block> LALSIAN = REGISTRY.register("lalsian", () -> new LalsianBlock());
+	public static final RegistryObject<Block> DIMONDDIMENTION_PORTAL = REGISTRY.register("dimonddimention_portal", () -> new DimonddimentionPortalBlock());
 }

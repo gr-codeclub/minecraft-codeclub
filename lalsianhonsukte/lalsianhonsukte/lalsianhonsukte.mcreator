@@ -85,6 +85,29 @@
           "src/main/java/net/mcreator/lalsianhonsukte/world/biome/MineBiome.java"
         ]
       }
+    },
+    {
+      "name": "Dimonddimention",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimonddimention",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lalsianhonsukte/block/DimonddimentionPortalBlock.java",
+          "src/main/resources/data/lalsianhonsukte/dimension/dimonddimention.json",
+          "src/main/resources/assets/lalsianhonsukte/models/block/dimonddimention_portal_ns.json",
+          "src/main/java/net/mcreator/lalsianhonsukte/world/dimension/DimonddimentionDimension.java",
+          "src/main/java/net/mcreator/lalsianhonsukte/world/teleporter/DimonddimentionTeleporter.java",
+          "src/main/resources/data/lalsianhonsukte/dimension_type/dimonddimention.json",
+          "src/main/resources/assets/lalsianhonsukte/blockstates/dimonddimention_portal.json",
+          "src/main/java/net/mcreator/lalsianhonsukte/item/DimonddimentionItem.java",
+          "src/main/resources/assets/lalsianhonsukte/models/block/dimonddimention_portal_ew.json",
+          "src/main/java/net/mcreator/lalsianhonsukte/world/teleporter/DimonddimentionPortalShape.java",
+          "src/main/resources/assets/lalsianhonsukte/models/item/dimonddimention.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -93,6 +116,7 @@
     "en_us": {
       "block.lalsianhonsukte.lalsian": "Lalsian",
       "item.lalsianhonsukte.wand": "Wand",
+      "item.lalsianhonsukte.dimonddimention": "Dimonddimention Portal Igniter",
       "item.lalsianhonsukte.jawbreaker": "Jawbreaker",
       "biome.lalsianhonsukte.mine": "Mine"
     }
