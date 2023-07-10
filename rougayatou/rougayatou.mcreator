@@ -48,6 +48,68 @@
       }
     },
     {
+      "name": "WandRightclicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rougayatou/procedures/WandRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WandRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rougayatou/procedures/WandRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
       "name": "HappyEntityIsHurt",
       "type": "procedure",
       "sortid": 6,
@@ -79,9 +141,40 @@
       }
     },
     {
+      "name": "WandMakeItemGlow",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_make_item_glow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rougayatou/procedures/WandMakeItemGlowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
       "name": "Happy",
       "type": "livingentity",
-      "sortid": 4,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "happy",
@@ -97,7 +190,7 @@
     {
       "name": "RougayatoublockOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 5,
+      "sortid": 9,
       "compiles": true,
       "locked_code": true,
       "registry_name": "rougayatoublock_on_block_right_clicked",
@@ -128,6 +221,7 @@
     {
       "name": "RougayatouBiome",
       "type": "biome",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rougayatou_biome",
@@ -143,7 +237,7 @@
     {
       "name": "My",
       "type": "fluid",
-      "sortid": 7,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "my",
