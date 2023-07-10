@@ -18,8 +18,6 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.catcosmonaut.procedures.SafaanaumrahmanOnBlockRightClickedProcedure;
-
 import java.util.List;
 import java.util.Collections;
 

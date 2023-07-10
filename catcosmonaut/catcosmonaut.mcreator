@@ -34,63 +34,32 @@
       }
     },
     {
-      "name": "CatWandRightclicked",
-      "type": "procedure",
-      "sortid": 6,
+      "name": "Safarahman",
+      "type": "biome",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cat_wand_rightclicked",
+      "registry_name": "safarahman",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/catcosmonaut/procedures/CatWandRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/java/net/mcreator/catcosmonaut/world/biome/SafarahmanBiome.java"
         ]
       }
     },
     {
-      "name": "CatWand",
-      "type": "item",
+      "name": "Cat",
+      "type": "plant",
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cat_wand",
+      "registry_name": "cat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/catcosmonaut/item/CatWandItem.java",
-          "src/main/resources/assets/catcosmonaut/models/item/cat_wand.json"
-        ]
-      }
-    },
-    {
-      "name": "Chowchow",
-      "type": "livingentity",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chowchow",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/catcosmonaut/client/renderer/ChowchowRenderer.java",
-          "src/main/java/net/mcreator/catcosmonaut/entity/ChowchowEntity.java",
-          "src/main/resources/data/catcosmonaut/forge/biome_modifier/chowchow_biome_modifier.json",
-          "src/main/resources/assets/catcosmonaut/models/item/chowchow_spawn_egg.json"
+          "src/main/resources/data/catcosmonaut/forge/biome_modifier/cat_biome_modifier.json",
+          "src/main/resources/assets/catcosmonaut/models/item/cat.json",
+          "src/main/java/net/mcreator/catcosmonaut/world/features/plants/CatFeature.java",
+          "src/main/java/net/mcreator/catcosmonaut/block/CatBlock.java",
+          "src/main/resources/assets/catcosmonaut/blockstates/cat.json",
+          "src/main/resources/assets/catcosmonaut/models/block/cat.json"
         ]
       }
     },
@@ -133,11 +102,10 @@
       "block.catcosmonaut.safaanaumrahman": "Safaanaumrahman",
       "item.catcosmonaut.cattshirt_chestplate": "Cattshirt",
       "item.catcosmonaut.cattshirt_leggings": "Jeans",
-      "item.catcosmonaut.cat_wand": "Cat Wand",
       "item.catcosmonaut.cattshirt_helmet": "Cathead",
       "item.catcosmonaut.cattshirt_boots": "Trainers",
-      "item.catcosmonaut.chowchow_spawn_egg": "Chowchow Spawn Egg",
-      "entity.catcosmonaut.chowchow": "Chowchow"
+      "biome.catcosmonaut.safarahman": "Safarahman",
+      "block.catcosmonaut.cat": "Cat"
     }
   },
   "foldersRoot": {
