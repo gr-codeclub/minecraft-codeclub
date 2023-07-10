@@ -85,6 +85,29 @@
           "src/main/java/net/mcreator/omar/world/biome/SewwwwyBiome.java"
         ]
       }
+    },
+    {
+      "name": "Neymar",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neymar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/omar/world/dimension/NeymarDimension.java",
+          "src/main/java/net/mcreator/omar/block/NeymarPortalBlock.java",
+          "src/main/resources/assets/omar/models/block/neymar_portal_ew.json",
+          "src/main/resources/assets/omar/models/block/neymar_portal_ns.json",
+          "src/main/resources/data/omar/dimension/neymar.json",
+          "src/main/resources/data/omar/dimension_type/neymar.json",
+          "src/main/resources/assets/omar/models/item/neymar.json",
+          "src/main/java/net/mcreator/omar/world/teleporter/NeymarTeleporter.java",
+          "src/main/java/net/mcreator/omar/world/teleporter/NeymarPortalShape.java",
+          "src/main/resources/assets/omar/blockstates/neymar_portal.json",
+          "src/main/java/net/mcreator/omar/item/NeymarItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -92,6 +115,7 @@
   "language_map": {
     "en_us": {
       "block.omar.omar": "Omar",
+      "item.omar.neymar": "Neymar Portal Igniter",
       "biome.omar.sewwwwy": "Sewwwwy",
       "item.omar.cake": "Cake",
       "item.omar.wandtool": "Wandtool"

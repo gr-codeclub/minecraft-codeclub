@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.omar.block.OmarBlock;
+import net.mcreator.omar.block.NeymarPortalBlock;
 import net.mcreator.omar.OmarMod;
 
 public class OmarModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, OmarMod.MODID);
 	public static final RegistryObject<Block> OMAR = REGISTRY.register("omar", () -> new OmarBlock());
+	public static final RegistryObject<Block> NEYMAR_PORTAL = REGISTRY.register("neymar_portal", () -> new NeymarPortalBlock());
 }
