@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.catcosmonaut.init.CatcosmonautModItems;
 import net.mcreator.catcosmonaut.init.CatcosmonautModFeatures;
+import net.mcreator.catcosmonaut.init.CatcosmonautModEntities;
 import net.mcreator.catcosmonaut.init.CatcosmonautModBlocks;
 import net.mcreator.catcosmonaut.init.CatcosmonautModBiomes;
 
@@ -55,6 +56,7 @@ public class CatcosmonautMod {
 
 		CatcosmonautModBlocks.REGISTRY.register(bus);
 		CatcosmonautModItems.REGISTRY.register(bus);
+		CatcosmonautModEntities.REGISTRY.register(bus);
 
 		CatcosmonautModFeatures.REGISTRY.register(bus);
 
