@@ -55,12 +55,36 @@
           "src/main/java/net/mcreator/jamilafarah/world/biome/ChoclalteBiome.java"
         ]
       }
+    },
+    {
+      "name": "Noddle",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noddle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jamilafarah/dimension_type/noddle.json",
+          "src/main/resources/assets/jamilafarah/models/block/noddle_portal_ew.json",
+          "src/main/resources/assets/jamilafarah/blockstates/noddle_portal.json",
+          "src/main/java/net/mcreator/jamilafarah/item/NoddleItem.java",
+          "src/main/resources/assets/jamilafarah/models/item/noddle.json",
+          "src/main/java/net/mcreator/jamilafarah/world/teleporter/NoddleTeleporter.java",
+          "src/main/resources/assets/jamilafarah/models/block/noddle_portal_ns.json",
+          "src/main/java/net/mcreator/jamilafarah/block/NoddlePortalBlock.java",
+          "src/main/resources/data/jamilafarah/dimension/noddle.json",
+          "src/main/java/net/mcreator/jamilafarah/world/dimension/NoddleDimension.java",
+          "src/main/java/net/mcreator/jamilafarah/world/teleporter/NoddlePortalShape.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.jamilafarah.noddle": "Noddle Portal Igniter",
       "item.jamilafarah.pizza_two": "Pizza Two",
       "block.jamilafarah.jamila": "Jamila",
       "biome.jamilafarah.choclalte": "Choclalte",
