@@ -16,4 +16,5 @@ import net.mcreator.jamilafarah.JamilafarahMod;
 public class JamilafarahModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, JamilafarahMod.MODID);
 	public static final RegistryObject<Block> JAMILA = REGISTRY.register("jamila", () -> new JamilaBlock());
+	public static final RegistryObject<Block> NODDLE_PORTAL = REGISTRY.register("noddle_portal", () -> new NoddlePortalBlock());
 }

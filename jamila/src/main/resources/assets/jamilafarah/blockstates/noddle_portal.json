@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "jamilafarah:block/noddle_portal_ew"
+    },
+    "axis=x": {
+      "model": "jamilafarah:block/noddle_portal_ns"
+    }
+  }
+}
