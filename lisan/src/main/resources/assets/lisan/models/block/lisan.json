@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "lisan:blocks/lisan",
-    "particle": "lisan:blocks/lisan"
-  },
-  "render_type": "solid"
-}
