@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "chubertos:blocks/khaled",
-    "particle": "chubertos:blocks/khaled"
-  },
-  "render_type": "solid"
-}

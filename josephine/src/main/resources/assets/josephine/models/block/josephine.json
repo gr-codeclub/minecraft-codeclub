@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "josephine:blocks/josephine",
-    "particle": "josephine:blocks/josephine"
-  },
-  "render_type": "solid"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "leanamae:blocks/leanamae",
-    "particle": "leanamae:blocks/leanamae"
-  },
-  "render_type": "solid"
-}
