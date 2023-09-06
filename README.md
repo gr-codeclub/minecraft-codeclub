@@ -108,5 +108,8 @@ minecraft {
     * You will need to restart the Minecraft launcher for it to realise you own it.
 * Open Minecraft to make sure it launches successfully.
 
+### Finishing off
+Commit the project to your new branch and push it.
+
 ### Windows updates
 Make sure it's up to date
