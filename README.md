@@ -13,7 +13,9 @@ Please work on a branch
 
 ### Github Desktop
 * Log in to the correct account (`codeclub2023<machineNumber>`)
-* Check out https://github.com/gr-codeclub/minecraft-codeclub main branch into C:\minecraft-codeclub
+    * If it doesn't exist you may need to make it and an associated `codeclub2023<machineNumber>@outlook.com` email.
+    * If you don't see the repo or had to create it you'll need to login to Github as gr-codeclub and add the account to the repository.
+* Check out https://github.com/gr-codeclub/minecraft-codeclub main branch into `C:\minecraft-codeclub`
 * Make sure the folder is empty other than the README.md and .gitignore.
 * Make a new folder named `codeclub2023<machineNumber>`
 * Make a new branch named `codeclub2023<machineNumber>`
@@ -109,7 +111,9 @@ minecraft {
 * Open Minecraft to make sure it launches successfully.
 
 ### Finishing off
-Commit the project to your new branch and push it.
+* Commit the project to your new branch
+* Push it.
+    * If you don't have push permissions, log in to GitHub as gr-codeclub and add the account to the repository.
 
 ### Windows updates
 Make sure it's up to date
