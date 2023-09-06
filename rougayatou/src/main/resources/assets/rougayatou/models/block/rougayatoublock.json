@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "rougayatou:blocks/rougayatou",
-    "particle": "rougayatou:blocks/rougayatou"
-  },
-  "render_type": "solid"
-}
