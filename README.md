@@ -91,7 +91,9 @@ minecraft {
     * Wait for it to import
         * If it fails, just make it try again by opening the build.gradle file and clicking the little elephant in the top right.
             * There is also a gradle sidebar where you can hit a refresh icon instead if this isn't working.
-    * Click through the gradle sidebar on the right hand side 
+    * Click through the gradle sidebar on the right hand side `<yourProject>/Tasks/forgegradle runs` and double click `runClient`
+    * Wait for Minecraft to start
+    * Shut Minecraft down
 
 ### Curseforge
 * Open Curseforge
