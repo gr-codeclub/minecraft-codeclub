@@ -24,10 +24,10 @@ Please work on a branch
 * Open MCreator
 * Click "New Workspace"
   * Change the settings
-    * Mod name to `codeclub20233<machineNumber>`
-    * Mod id to `codeclub20233<machineNumber>`
+    * Mod name to `codeclub2023machineNumber>`
+    * Mod id to `codeclub2023<machineNumber>`
     * Mod java package name to `net.mcreator.codeclub2023<machineNumber>`
-    * Workspace folder to `C:\minecraft-codeclub\codeclub20233`
+    * Workspace folder to `C:\minecraft-codeclub\codeclub2023<machineNumber>`
 * Let it import
 * Click the little arrow on the far left to get to the files so you can change the gradle files.
 
