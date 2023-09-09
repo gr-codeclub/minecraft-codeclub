@@ -24,7 +24,7 @@ Please work on a branch
 * Open MCreator
 * Click "New Workspace"
   * Change the settings
-    * Mod name to `codeclub2023machineNumber>`
+    * Mod name to `codeclub2023<machineNumber>`
     * Mod id to `codeclub2023<machineNumber>`
     * Mod java package name to `net.mcreator.codeclub2023<machineNumber>`
     * Workspace folder to `C:\minecraft-codeclub\codeclub2023<machineNumber>`
